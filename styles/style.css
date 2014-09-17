@@ -87,6 +87,19 @@ body {
   text-transform: uppercase;
 }
 
+/* Body Style */
+
+#main {
+  margin: 0 auto;
+}
+
+#intro {
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 100;
+  text-shadow: 1px 1px 2px #fff;
+}
+
 /* Width based on Screen Width */
 
 @media screen and (min-width: 1900px) {
@@ -123,7 +136,7 @@ body {
   #navigation {
     display: none; }
 
-  #sort-by {
+  #intro {
     font-size: 22px;
     line-height: 29px; }
 
@@ -145,7 +158,7 @@ body {
   #navigation {
     display: none; }
 
-  #sort-by {
+  #intro {
     font-size: 22px;
     line-height: 29px; }
 
