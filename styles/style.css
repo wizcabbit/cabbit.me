@@ -1,8 +1,9 @@
 body {
   font-family: "Roboto", Helvetica, Arial, sans-serif;
-  zoom: 1;
   margin: 0;
   background: url("../images/bg.gif") repeat;
+  font-weight: 300;
+  line-height: 1.15;
 }
 
 #container {
@@ -23,6 +24,8 @@ body {
   padding: 0px;
   box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
   background-color: white;
+  position: fixed;
+  z-index: 400;
 }
 
 #header {
@@ -89,8 +92,21 @@ body {
 
 /* Body Style */
 
-#main {
+#main_wrapper {
+  width: 1100px;
+  zoom: 1;
   margin: 0 auto;
+  position: relative;
+  z-index: 60;
+  padding-top: 90px;
+}
+
+#main {
+
+}
+
+#intro_wrapper {
+  padding: 0px 15px 0px 20px;
 }
 
 #intro {
@@ -98,36 +114,100 @@ body {
   line-height: 40px;
   font-weight: 100;
   text-shadow: 1px 1px 2px #fff;
+  padding: 3% 0px;
+}
+
+.project {
+  float: left;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 3px;
+  background-color: white;
+  box-shadow: 0px 1px 4px 0px #ccc;
+}
+
+.project-overview {
+  width: 310px;
+  position: relative;
+  overflow: hidden;
+}
+
+.project-overview-title-link {
+  text-decoration: none;
+}
+
+.project-overview h2.project-overview-title {
+  margin: 0 0 5px 0;
+  left: 0px;
+  font-size: 28px;
+  line-height: 28px;
+  color: #333;
+  font-weight: 400;
+}
+
+.project-overview-subtitle {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 8px;
+  left: 0px;
+  font-size: 20px;
+  color: #333;
+  font-weight: 300;
+}
+
+.project-overview p.project-brief-short {
+  font-size: 14px;
+  margin-top: 3px;
+  margin-bottom: 5px;
+  color: #333;
+  line-height: 19px;
+  font-weight: 300;
+}
+
+.project-skills a {
+  display: inline-block;
+  font-weight: lighter;
+  margin-top: 5px;
+  margin-right: 10px;
+  padding-bottom: 2px;
+  border-bottom: 1px solid;
+  border-color: white;
+  color: #999;
+  text-decoration: none !important;
+  font-weight: 300;
+  line-height: 12px;
+  font-size: 12px;
+  cursor: pointer;
 }
 
 /* Width based on Screen Width */
 
 @media screen and (min-width: 1900px) {
-  #main-wrapper {
+  #main_wrapper {
     width: 1860px; }
 
   #header {
     width: 1860px; } }
 @media screen and (max-width: 1900px) and (min-width: 1520px) {
-  #main-wrapper {
+  #main_wrapper {
     width: 1490px; }
 
   #header {
     width: 1490px; } }
 @media screen and (max-width: 1520px) and (min-width: 1140px) {
-  #main-wrapper {
+  #main_wrapper {
     width: 1120px; }
 
   #header {
     width: 1120px; } }
 @media screen and (max-width: 1140px) and (min-width: 770px) {
-  #main-wrapper {
+  #main_wrapper {
     width: 750px; }
 
   #header {
     width: 750px; } }
 @media screen and (max-width: 770px) {
-  #main-wrapper {
+  #main_wrapper {
     width: 370px; }
 
   #header {
@@ -148,8 +228,8 @@ body {
 
   #footer .alignright {
     display: none; } }
-@media screen and (min-device-width: 320px) and (max-device-width: 568px), screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  #main-wrapper {
+@media screen and (min-device-width: 320px) and (max-device-width: 568px) {
+  #main_wrapper {
     width: 370px; }
 
   #header {
