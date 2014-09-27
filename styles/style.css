@@ -117,6 +117,10 @@ body {
   padding: 2% 0px;
 }
 
+#projects_wrapper {
+  position: relative;
+}
+
 .project {
   float: left;
   padding: 20px;
