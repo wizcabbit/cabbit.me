@@ -114,7 +114,6 @@ body {
   line-height: 40px;
   font-weight: 100;
   text-shadow: 1px 1px 2px #fff;
-  padding: 2% 0px;
 }
 
 #projects_wrapper {
@@ -142,30 +141,26 @@ body {
 
 .project-overview h2.project-overview-title {
   margin: 0 0 5px 0;
-  left: 0px;
   font-size: 28px;
+  font-weight: 400;
   line-height: 28px;
   color: #333;
-  font-weight: 400;
 }
 
 .project-overview-subtitle {
-  margin: 0;
-  padding: 0;
   padding-bottom: 8px;
-  left: 0px;
   font-size: 20px;
-  color: #333;
   font-weight: 300;
+  color: #333;
 }
 
 .project-overview p.project-brief-short {
   font-size: 14px;
+  font-weight: 300;
   margin-top: 3px;
   margin-bottom: 5px;
   color: #333;
   line-height: 19px;
-  font-weight: 300;
 }
 
 .project-skills a {
@@ -182,6 +177,21 @@ body {
   line-height: 12px;
   font-size: 12px;
   cursor: pointer;
+}
+
+#footer {
+  font-size: 12px;
+  margin: 15px auto;
+  padding: 0 15px;
+}
+
+.textcenter {
+  text-align: center;
+  margin: 25px 0 10px 0;
+}
+
+.textright {
+  text-align: right;
 }
 
 /* Width based on Screen Width */
