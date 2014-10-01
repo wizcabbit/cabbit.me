@@ -1,8 +1,8 @@
 $(function(){
-    var $container = $("#projects_wrapper");
+    var $container = $("#proj-wrapper");
     imagesLoaded(container, function() {
       $container.masonry({
-        itemSelector: ".project",
+        itemSelector: ".proj",
       });
     });
 });

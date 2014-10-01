@@ -8,18 +8,12 @@ body {
 
 #container {
   width: 100%;
-  margin: 0px, auto;
-}
-
-.clear {
-  clear: both;
-  height: 0px;
-  font-size: 0px;
+  margin: 0, auto;
 }
 
 /* Header Style */
 
-#header_wrapper {
+#header-wrapper {
   width: 100%;
   padding: 0px;
   box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
@@ -35,10 +29,10 @@ body {
 }
 
 #header a {
-  text-decoration: none;
   color: #333;
   font-weight: 200;
   text-shadow: #fff 1px 1px 1px;
+  text-decoration: none;
 }
 
 #banner {
@@ -64,26 +58,26 @@ body {
 #logo span {
   font-size:38px;
   position: absolute;
-  top: 0px;
+  top: 0;
   left: 55px;
 }
 
-#navigation {
+#nav {
   position: absolute;
-  top: 0px;
+  top: 0;
   right: -10px;
 }
 
-#navigation ul {
+#nav ul {
   list-style: none;
-  margin: 0px;
+  margin: 0;
 }
 
-#navigation ul li {
+#nav ul li {
   float: left;
 }
 
-#navigation ul li a {
+#nav ul li a {
   display: block;
   padding: 30px 20px;
   font-size: 20px;
@@ -92,7 +86,7 @@ body {
 
 /* Body Style */
 
-#main_wrapper {
+#main-wrapper {
   width: 1100px;
   zoom: 1;
   margin: 0 auto;
@@ -105,8 +99,8 @@ body {
 
 }
 
-#intro_wrapper {
-  padding: 0px 15px 0px 20px;
+#intro-wrapper {
+  padding: 0 15px 0px 20px;
 }
 
 #intro {
@@ -116,11 +110,11 @@ body {
   text-shadow: 1px 1px 2px #fff;
 }
 
-#projects_wrapper {
+#proj-wrapper {
   position: relative;
 }
 
-.project {
+.proj {
   float: left;
   padding: 20px;
   margin: 10px;
@@ -129,17 +123,17 @@ body {
   box-shadow: 0px 1px 4px 0px #ccc;
 }
 
-.project-overview {
+.proj-overview {
   width: 310px;
   position: relative;
   overflow: hidden;
 }
 
-.project-overview-title-link {
+.proj-overview a {
   text-decoration: none;
 }
 
-.project-overview h2.project-overview-title {
+.proj-overview h2 {
   margin: 0 0 5px 0;
   font-size: 28px;
   font-weight: 400;
@@ -147,14 +141,15 @@ body {
   color: #333;
 }
 
-.project-overview-subtitle {
+.proj-overview h3 {
+  margin: 0;
   padding-bottom: 8px;
   font-size: 20px;
   font-weight: 300;
   color: #333;
 }
 
-.project-overview p.project-brief-short {
+.proj-overview p {
   font-size: 14px;
   font-weight: 300;
   margin-top: 3px;
@@ -163,7 +158,7 @@ body {
   line-height: 19px;
 }
 
-.project-skills a {
+.proj-skills a {
   display: inline-block;
   font-weight: lighter;
   margin-top: 5px;
@@ -185,49 +180,49 @@ body {
   padding: 0 15px;
 }
 
-.textcenter {
+#rights {
   text-align: center;
   margin: 25px 0 10px 0;
 }
 
-.textright {
+#backtop {
   text-align: right;
 }
 
 /* Width based on Screen Width */
 
 @media screen and (min-width: 1900px) {
-  #main_wrapper {
+  #main-wrapper {
     width: 1860px; }
 
   #header {
     width: 1860px; } }
 @media screen and (max-width: 1900px) and (min-width: 1520px) {
-  #main_wrapper {
+  #main-wrapper {
     width: 1490px; }
 
   #header {
     width: 1490px; } }
 @media screen and (max-width: 1520px) and (min-width: 1140px) {
-  #main_wrapper {
+  #main-wrapper {
     width: 1120px; }
 
   #header {
     width: 1120px; } }
 @media screen and (max-width: 1140px) and (min-width: 770px) {
-  #main_wrapper {
+  #main-wrapper {
     width: 750px; }
 
   #header {
     width: 750px; } }
 @media screen and (max-width: 770px) {
-  #main_wrapper {
+  #main-wrapper {
     width: 370px; }
 
   #header {
     width: 370px; }
 
-  #navigation {
+  #nav {
     display: none; }
 
   #intro {
@@ -240,10 +235,10 @@ body {
   #banner.zoomed {
     width: 190px; }
 
-  #footer .alignright {
+  #footer .backtop {
     display: none; } }
 @media screen and (min-device-width: 320px) and (max-device-width: 568px) {
-  #main_wrapper {
+  #main-wrapper {
     width: 370px; }
 
   #header {
@@ -262,5 +257,5 @@ body {
   #banner.zoomed {
     width: 190px; }
 
-  #footer .alignright {
+  #footer .backtop {
     display: none; } }
