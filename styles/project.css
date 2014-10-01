@@ -1,0 +1,106 @@
+#main {
+  margin-top: 40px;
+}
+
+#main-sidebar, #proj-detail {
+  border-radius: 4px;
+  background-color: #fff;
+  box-shadow: 0px 1px 4px 0px #ccc;
+}
+
+/* Left Sidebar, project list */
+
+#main-sidebar {
+  float: left;
+  width: 200px;
+}
+
+#main-sidebar ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#main-sidebar a {
+  padding: 20px;
+  border: none;
+  display: block;
+}
+
+#main-sidebar h4 {
+  margin: 0;
+  font-weight: normal;
+  margin-bottom: 5px;
+}
+
+#main-sidebar h5 {
+  margin: 0;
+  font-weight: inherit;
+}
+
+/* Project detail */
+
+#proj-detail {
+  margin-left: 220px;
+  padding: 20px;
+  overflow: auto;
+}
+
+#proj-intro {
+  margin-right: 170px;
+  padding-right: 30px;
+}
+
+#proj-intro h2 {
+  margin: 0 0 15px 0;
+  color: #333;
+  font-weight: 300;
+}
+
+#proj-intro span {
+  display: block;
+  border-style: none;
+  border-radius: 4px;
+  background-color: #e7eaf0;
+  padding: 7px 15px;
+  margin: 12px 0;
+}
+
+#proj-intro h4 {
+  font-size: 24px;
+  border: solid #ddd;
+  border-width: 0 0 1px 0;
+  font-weight: normal;
+  margin: 15px 0 10px 0;
+  padding: 0 0 0.5em 0;
+}
+
+#proj-intro p {
+  margin: 6px 0;
+}
+
+#proj-intro img {
+  width: 100%;
+}
+
+/* Project attributes, right sidebar */
+
+#proj-attribute {
+  float:right;
+  width: 150px;
+  border-left: solid 1px;
+  border-color: #ddd;
+  padding-left: 15px;
+}
+
+#proj-attribute h5 {
+  color: #777;
+  margin: 0 0 8px 0;
+  font-weight: 400;
+}
+
+#proj-attribute span {
+  display: block;
+  margin: 6px 0;
+  line-height: 20px;
+}

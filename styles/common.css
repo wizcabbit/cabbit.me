@@ -1,9 +1,49 @@
 body {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
   margin: 0;
-  background: url("../images/bg.gif") repeat;
+  background: url(../images/bg.gif) repeat;
   font-weight: 300;
   line-height: 1.15;
+}
+
+a {
+  color: #384556;
+  font-weight: lighter;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 38px;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+h4 {
+  font-size: 15px;
+}
+
+h5 {
+  font-size: 12px;
+}
+
+p {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+span {
+  font-size: 14px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
 }
 
 #container {
@@ -32,7 +72,6 @@ body {
   color: #333;
   font-weight: 200;
   text-shadow: #fff 1px 1px 1px;
-  text-decoration: none;
 }
 
 #banner {
@@ -55,11 +94,12 @@ body {
   display: block;
 }
 
-#logo span {
-  font-size:38px;
+#logo h1 {
   position: absolute;
   top: 0;
   left: 55px;
+  margin: 0;
+  font-weight: 200;
 }
 
 #nav {
@@ -88,91 +128,13 @@ body {
 
 #main-wrapper {
   width: 1100px;
-  zoom: 1;
   margin: 0 auto;
   position: relative;
   z-index: 60;
   padding-top: 90px;
 }
 
-#main {
-
-}
-
-#intro-wrapper {
-  padding: 0 15px 0px 20px;
-}
-
-#intro {
-  font-size: 30px;
-  line-height: 40px;
-  font-weight: 100;
-  text-shadow: 1px 1px 2px #fff;
-}
-
-#proj-wrapper {
-  position: relative;
-}
-
-.proj {
-  float: left;
-  padding: 20px;
-  margin: 10px;
-  border-radius: 3px;
-  background-color: white;
-  box-shadow: 0px 1px 4px 0px #ccc;
-}
-
-.proj-overview {
-  width: 310px;
-  position: relative;
-  overflow: hidden;
-}
-
-.proj-overview a {
-  text-decoration: none;
-}
-
-.proj-overview h2 {
-  margin: 0 0 5px 0;
-  font-size: 28px;
-  font-weight: 400;
-  line-height: 28px;
-  color: #333;
-}
-
-.proj-overview h3 {
-  margin: 0;
-  padding-bottom: 8px;
-  font-size: 20px;
-  font-weight: 300;
-  color: #333;
-}
-
-.proj-overview p {
-  font-size: 14px;
-  font-weight: 300;
-  margin-top: 3px;
-  margin-bottom: 5px;
-  color: #333;
-  line-height: 19px;
-}
-
-.proj-skills a {
-  display: inline-block;
-  font-weight: lighter;
-  margin-top: 5px;
-  margin-right: 10px;
-  padding-bottom: 2px;
-  border-bottom: 1px solid;
-  border-color: white;
-  color: #999;
-  text-decoration: none !important;
-  font-weight: 300;
-  line-height: 12px;
-  font-size: 12px;
-  cursor: pointer;
-}
+/* Footer Style */
 
 #footer {
   font-size: 12px;

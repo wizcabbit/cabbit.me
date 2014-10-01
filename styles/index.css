@@ -1,0 +1,71 @@
+#intro-wrapper {
+  padding: 0 15px 0px 20px;
+}
+
+#intro p {
+  font-size: 30px;
+  font-weight: 100;
+  line-height: 40px;
+  text-shadow: 1px 1px 2px #fff;
+}
+
+#proj-wrapper {
+  position: relative;
+}
+
+.proj {
+  float: left;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 3px;
+  background-color: white;
+  box-shadow: 0px 1px 4px 0px #ccc;
+}
+
+.proj-overview {
+  width: 310px;
+  position: relative;
+  overflow: hidden;
+}
+
+.proj-overview a {
+  text-decoration: none;
+}
+
+.proj-overview h2 {
+  margin: 5px 0 5px 0;
+  font-weight: 400;
+  line-height: 28px;
+  color: #333;
+}
+
+.proj-overview h3 {
+  margin: 0 0 7px 0;
+  font-weight: 300;
+  color: #333;
+}
+
+.proj-overview p {
+  font-size: 14px;
+  font-weight: 300;
+  margin-top: 3px;
+  margin-bottom: 5px;
+  color: #333;
+  line-height: 19px;
+}
+
+.proj-skills a {
+  display: inline-block;
+  font-weight: lighter;
+  margin-top: 5px;
+  margin-right: 10px;
+  padding-bottom: 2px;
+  border-bottom: 1px solid;
+  border-color: white;
+  color: #999;
+  text-decoration: none !important;
+  font-weight: 300;
+  line-height: 12px;
+  font-size: 12px;
+  cursor: pointer;
+}
