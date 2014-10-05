@@ -1,11 +1,22 @@
 #main {
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 #main-sidebar, #proj-detail {
   border-radius: 4px;
   background-color: #fff;
   box-shadow: 0px 1px 4px 0px #ccc;
+}
+
+#main a {
+  border-bottom: 1px dotted #384556;
+}
+
+#main ul {
+  list-style: initial;
+  font-size: 14px;
+  padding-left: 25px;
+  line-height: 20px;
 }
 
 /* Left Sidebar, project list */
@@ -49,6 +60,7 @@
 #proj-intro {
   margin-right: 170px;
   padding-right: 30px;
+  overflow: auto;
 }
 
 #proj-intro h2 {
@@ -72,7 +84,7 @@
   border-width: 0 0 1px 0;
   font-weight: normal;
   margin: 15px 0 10px 0;
-  padding: 0 0 0.5em 0;
+  padding: 0 0 0.3em 0;
 }
 
 #proj-intro p {
@@ -103,4 +115,27 @@
   display: block;
   margin: 6px 0;
   line-height: 20px;
+}
+
+/* Project 09 Global Guider */
+
+img.proj-09-solution {
+  width: 250px !important;
+  height: 240px;
+}
+
+#proj-09-theory-container {
+  overflow: auto;
+}
+
+#proj-09-theory-text {
+  float: left;
+  width: 350px;
+  overflow: auto;
+}
+
+#proj-09-theory-img {
+  float: right;
+  width: 310px !important;
+  margin: 10px 0;
 }
