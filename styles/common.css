@@ -151,6 +151,39 @@ ul {
   text-align: right;
 }
 
+/* Web Font */
+
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 100;
+  src: local('Roboto Thin'), local('Roboto-Thin'), url(../fonts/Roboto_100.woff) format('woff');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 300;
+  src: local('Roboto Light'), local('Roboto-Light'), url(../fonts/Roboto_300.woff) format('woff');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 400;
+  src: local('Roboto Regular'), local('Roboto-Regular'), url(../fonts/Roboto_400.woff) format('woff');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 500;
+  src: local('Roboto Medium'), local('Roboto-Medium'), url(../fonts/Roboto_500.woff) format('woff');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 700;
+  src: local('Roboto Bold'), local('Roboto-Bold'), url(../fonts/Roboto_700.woff) format('woff');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 900;
+  src: local('Roboto Black'), local('Roboto-Black'), url(../fonts/Roboto_900.woff) format('woff');
+}
+
 /* Width based on Screen Width */
 
 @media screen and (min-width: 1900px) {
