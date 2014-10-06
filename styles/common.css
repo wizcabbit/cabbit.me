@@ -204,7 +204,13 @@ ul {
 
   #header {
     width: 1120px; } }
-@media screen and (max-width: 1140px) and (min-width: 770px) {
+@media screen and (max-width: 1140px) and (min-width: 950px) {
+  #main-wrapper {
+    width: 920px; }
+
+  #header {
+    width: 920px; } }
+@media screen and (max-width: 950px) and (min-width: 770px) {
   #main-wrapper {
     width: 750px; }
 
