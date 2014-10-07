@@ -10,8 +10,8 @@
 
   <div class="proj">
     <div class="proj-overview">
-      <a href="projects/09-global-guider.html">
-        <img src="images/proj_09_title.jpg" alt="Global Guider">
+      <a href="{$WEB_ROOT}/projects/09-global-guider">
+        <img src="{$WEB_ROOT}/images/proj_09_title.jpg" alt="Global Guider">
         <h2>Global Guider</h2>
         <h3>Navigator prototype for GLASSES in 2008</h3>
       </a>
@@ -26,8 +26,8 @@
 
   <div class="proj">
     <div class="proj-overview">
-      <a href="projects/08-iems.html">
-        <img src="images/proj_08_title.jpg">
+      <a href="{$WEB_ROOT}/projects/08-iems.html">
+        <img src="{$WEB_ROOT}/images/proj_08_title.jpg">
         <h2>IEMS - Environment</h2>
         <h3>UX Standard of GIS</h3>
       </a>
