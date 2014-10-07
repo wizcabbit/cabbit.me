@@ -12,8 +12,8 @@ $smarty->caching = true;
 $smarty->cache_lifetime = 120;
 
 $smarty->template_dir = "templates/";
-$smarty->compile_dir = "smarty/templates_c/";
-$smarty->cache_dir = "smarty/cache/";
+$smarty->compile_dir = "bin/templates_c/";
+$smarty->cache_dir = "bin/cache/";
 $smarty->config_dir = "smarty/config/";
 
 $smarty->display('index.tpl');
