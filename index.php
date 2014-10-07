@@ -3,8 +3,12 @@
  * All page enter.
  */
 
+$WEB_PATH = dirname(__FILE__);
+$WEB_ROOT = '//localhost/test';
+
+
 // Initialize smary compnent
-require '/Users/Wzy/GitHub/cabbit.me/smarty/Smarty.class.php';
+require 'smarty/Smarty.class.php';
 
 $smarty = new Smarty;
 $smarty->debugging = false;
@@ -18,12 +22,14 @@ $smarty->cache_dir = 'bin/cache/';
 $smarty->config_dir = 'smarty/config/';
 
 // Initialize root path
-$smarty->assign('WEB_ROOT', '//localhost/test');
+$smarty->assign('WEB_ROOT', $WEB_ROOT);
 
-// Route all project page to unique template
-$projName = $_GET['proj'];
-if (empty($projName)) {
-  $smarty->display('index.tpl');
+// Route all project pages to unique template
+$proj_name = $_GET['proj'];
+$proj_template = $WEB_PATH . '/templates/projects/' . $proj_name . '.tpl';
+
+if (file_exists($proj_template)) {
+  $smarty->display($proj_template);
 } else {
-  $smarty->display('projects/' . $projName . '.tpl');
+  $smarty->display('index.tpl');
 }

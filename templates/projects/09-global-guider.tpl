@@ -23,8 +23,8 @@
     <h5>Time</h5>
     <span>April, 2009</span>
     <h5>Team & Role</h5>
-    <span><a href="https://www.facebook.com/chen.lu.568">LU Chen</a></span>
-    <span><a href="https://www.facebook.com/yun.sheng.52">SHENG Yun</a></span>
+    <span><a href="//www.facebook.com/chen.lu.568">LU Chen</a></span>
+    <span><a href="//www.facebook.com/yun.sheng.52">SHENG Yun</a></span>
     <span>SHAO Rui, Thinrey.XU,</span>
     <span><a href="//weibo.com/saterwang">Sater WANG</a></span>
     <span>ME (Tech Leader)</span>
@@ -62,7 +62,7 @@
     <div>
       <img class="proj-09-solution" src="{$WEB_ROOT}/images/proj_09_solution.jpg" alt="Global Guider solution">
       <video preload="auto" width="384" height="240" poster="{$WEB_ROOT}/images/proj_09_solution_poster.jpg">
-       <source src="{$WEB_ROOT}/medias/proj_09_solution.mp4" type='video/mp4' />
+       <source src="{$WEB_ROOT}/media/proj_09_solution.mp4" type='video/mp4' />
       </video>
     </div>
 
