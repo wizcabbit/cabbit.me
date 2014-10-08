@@ -12,7 +12,7 @@
     <div class="proj-overview">
       <a href="{$WEB_ROOT}/projects/09-global-guider">
         <img src="{$WEB_ROOT}/images/proj_09_title.jpg" alt="Global Guider">
-        <h2>Global Guider (2008)</h2>
+        <h2>Global Guider</h2>
         <h3>Navigator prototype for GLASSES in 2008</h3>
       </a>
       <p>It shows informations "on" everything we see, shows direction "to" where we should go. Got Second Award in Microsoft Imagine Cup, 2008.</p>
@@ -26,9 +26,26 @@
 
   <div class="proj">
     <div class="proj-overview">
+      <a href="{$WEB_ROOT}/projects/11-sohu-nba">
+        <img src="{$WEB_ROOT}/images/proj_11_title.jpg">
+        <h2>Sohu's NBA Channel</h2>
+        <h3>Make immersive experience for NBA Live, more interesting</h3>
+      </a>
+      <p>Many time tracking software require too much user attention. One-Click TimeTracker takes a minimalist approach and requires only one click.Many time tracking software require too much user attention. One-Click TimeTracker takes a minimalist approach and requires only one click.</p>
+      <div class="proj-skills">
+        <a>HTML 5</a>
+        <a>CSS 3</a>
+        <a>jQuery</a>
+        <a>Front-end Development</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="proj">
+    <div class="proj-overview">
       <a href="{$WEB_ROOT}/projects/08-iems">
         <img src="{$WEB_ROOT}/images/proj_08_title.jpg">
-        <h2>IEMS (2009)</h2>
+        <h2>IEMS - GIS</h2>
         <h3>UX Standard for GIS</h3>
       </a>
       <p>Earth and environment changes all the time, but our GIS interface looks out of date. IEMS is next standard of Environment Information System</p>
@@ -42,32 +59,48 @@
 
   <div class="proj">
     <div class="proj-overview">
-      <a href="#">
-        <img src="images/project.1.click_495_220.png">
-        <h2>1-Click TimeTracker</h2>
-        <h3>Lightweight Time Tracking App</h3>
+      <a href="{$WEB_ROOT}/projects/13-napochi">
+        <img src="{$WEB_ROOT}/images/proj_13_title.jpg">
+        <h2>Napochi</h2>
+        <h3>Creating healthier communities, enhancing best practices</h3>
       </a>
-      <p>Many time tracking software require too much user attention. One-Click TimeTracker takes a minimalist approach and requires only one click.Many time tracking software require too much user attention. One-Click TimeTracker takes a minimalist approach and requires only one click.</p>
+      <p>Many time tracking software require too much user attention. One-Click TimeTracker takes a minimalist approach and requires only one click.Many time tracking software require too much user attention.</p>
       <div class="proj-skills">
-        <a>Product Design</a>
         <a>UX Design</a>
-        <a>Front-end Development</a>
+        <a>Computer Graphics</a>
+        <a>Plug-in Architecture</a>
       </div>
     </div>
   </div>
 
   <div class="proj">
     <div class="proj-overview">
-      <a href="#">
-        <img src="images/project.1.click_495_220.png">
-        <h2>1-Click TimeTracker</h2>
-        <h3>Lightweight Time Tracking App</h3>
+      <a href="{$WEB_ROOT}/projects/12-ge-maker">
+        <img src="{$WEB_ROOT}/images/proj_12_title.jpg">
+        <h2>GE Centricity RIS-IC</h2>
+        <h3>Designer and template maker for medical workflow</h3>
       </a>
-      <p>Many time tracking software require too much user attention. One-Click TimeTracker takes a minimalist approach and requires only one click.Many time tracking software require too much user attention. One-Click TimeTracker takes a minimalist approach and requires only one click.</p>
+      <p>Helping improve both departmental and enterprise-wide radiology productivity, administrative efficiency, and enhance patient care.</p>
       <div class="proj-skills">
-        <a>Product Design</a>
+        <a>MVVM</a>
+        <a>WPF</a>
+        <a>Development Tool</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="proj">
+    <div class="proj-overview">
+      <a href="{$WEB_ROOT}/projects/10-vheard">
+        <img src="{$WEB_ROOT}/images/proj_10_title.jpg">
+        <h2>vHeard</h2>
+        <h3>Transfer vision to sound, help blind man to learn the world</h3>
+      </a>
+      <p>Many time tracking software require too much user attention. One-Click TimeTracker takes a minimalist approach and requires only one click.Many time tracking software require too much user attention. One-Click TimeTracker takes a minimalist approach and requires only one click.Many time tracking software require too much user attention. One-Click TimeTracker takes a minimalist approach and requires only one click.Many time tracking software require too much user attention.</p>
+      <div class="proj-skills">
         <a>UX Design</a>
-        <a>Front-end Development</a>
+        <a>Computer Graphics</a>
+        <a>Plug-in Architecture</a>
       </div>
     </div>
   </div>

@@ -38,6 +38,11 @@
   text-decoration: none;
 }
 
+.proj-overview img {
+  width: 100%;
+  max-width: 100%;
+}
+
 .proj-overview h2 {
   margin: 5px 0 5px 0;
   font-weight: 400;
