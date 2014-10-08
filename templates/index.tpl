@@ -26,7 +26,7 @@
 
   <div class="proj">
     <div class="proj-overview">
-      <a href="{$WEB_ROOT}/projects/08-iems">
+      <a href="{$WEB_ROOT}/projects/08-iems.html">
         <img src="{$WEB_ROOT}/images/proj_08_title.jpg">
         <h2>IEMS - Environment</h2>
         <h3>UX Standard of GIS</h3>
