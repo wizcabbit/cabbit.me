@@ -4,17 +4,6 @@
   box-shadow: 0px 1px 4px 0px #ccc;
 }
 
-#proj-detail a {
-  border-bottom: 1px dotted #384556;
-}
-
-#proj-detail  ul {
-  list-style: initial;
-  font-size: 14px;
-  padding-left: 25px;
-  line-height: 20px;
-}
-
 /* Left Sidebar, project list */
 
 #main-sidebar {
@@ -53,6 +42,21 @@
   overflow: auto;
 }
 
+#proj-detail a {
+  border-bottom: 1px dotted #384556;
+}
+
+#proj-detail ul {
+  list-style: initial;
+  font-size: 14px;
+  padding-left: 25px;
+  line-height: 20px;
+}
+
+#proj-detail video {
+  max-width: 100%;
+}
+
 #proj-intro {
   margin-right: 170px;
   padding-right: 30px;
@@ -89,6 +93,7 @@
 
 #proj-intro img {
   width: 100%;
+  max-width: 100%;
 }
 
 /* Project attributes, right sidebar */
@@ -128,6 +133,7 @@ img.proj-09-solution {
 #proj-09-theory-text {
   float: left;
   width: 350px;
+  max-width: 100%;
   overflow: auto;
 }
 
