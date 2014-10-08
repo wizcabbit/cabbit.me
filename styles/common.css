@@ -127,14 +127,15 @@ ul {
 /* Body Style */
 
 #main-wrapper {
-  width: 1100px;
-  margin: 0 auto;
+  width: 100%;
   position: relative;
   z-index: 60;
   padding-top: 90px;
 }
 
 #main {
+  width: 1110px;
+  margin: 0 auto;
   margin-top: 20px;
 }
 
@@ -190,77 +191,33 @@ ul {
 
 /* Width based on Screen Width */
 
-@media screen and (min-width: 1900px) {
-  #main-wrapper {
-    width: 1860px; }
-
-  #header {
-    width: 1860px; } }
-@media screen and (max-width: 1900px) and (min-width: 1520px) {
-  #main-wrapper {
-    width: 1490px; }
-
-  #header {
-    width: 1490px; } }
-@media screen and (max-width: 1520px) and (min-width: 1140px) {
-  #main-wrapper {
-    width: 1120px; }
-
-  #header {
-    width: 1120px; } }
-@media screen and (max-width: 1140px) and (min-width: 950px) {
-  #main-wrapper {
-    width: 920px; }
-
-  #header {
-    width: 920px; } }
-@media screen and (max-width: 950px) and (min-width: 770px) {
-  #main-wrapper {
-    width: 750px; }
-
-  #header {
-    width: 750px; } }
-@media screen and (max-width: 770px) {
-  #main-wrapper {
-    width: 370px; }
-
-  #header {
-    width: 370px; }
-
-  #nav {
-    display: none; }
-
-  #intro {
-    font-size: 22px;
-    line-height: 29px; }
-
-  #banner {
-    margin: 0 auto; }
-
-  #banner.zoomed {
-    width: 190px; }
-
-  #footer .backtop {
-    display: none; } }
-@media screen and (min-device-width: 320px) and (max-device-width: 568px) {
-  #main-wrapper {
-    width: 370px; }
-
-  #header {
-    width: 370px; }
-
-  #navigation {
-    display: none; }
-
-  #intro {
-    font-size: 22px;
-    line-height: 29px; }
-
-  #banner {
-    margin: 0 auto; }
-
-  #banner.zoomed {
-    width: 190px; }
-
-  #footer .backtop {
-    display: none; } }
+@media screen and (min-width: 1850px) {
+  #main, #header {
+    width: 1850px;
+  }
+}
+@media screen and (max-width: 1850px) and (min-width: 1480px) {
+  #main, #header {
+    width: 1480px;
+  }
+}
+@media screen and (max-width: 1480px) and (min-width: 1110px) {
+  #main, #header {
+    width: 1110px;
+  }
+}
+@media screen and (max-width: 1110px) and (min-width: 740px) {
+  #main, #header {
+    width: 740px;
+  }
+}
+@media screen and (max-width: 740px) and (min-width: 370px) {
+  #main, #header {
+    width: 370px;
+  }
+}
+@media screen and (max-width: 370px) {
+  #main, #header {
+    width: 370px;
+  }
+}
