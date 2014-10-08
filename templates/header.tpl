@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>WANG Zhi Yong - Portfolio</title>
+    <title>wizcabbit - Portfolio</title>
     <!-- Stylesheet -->
     <link rel="stylesheet" href="{$WEB_ROOT}/styles/common.css">
     <link rel="stylesheet" href="{$WEB_ROOT}/styles/index.css">
@@ -22,7 +22,7 @@
             <div id="logo"><!-- BEGIN logo -->
               <a href="{$WEB_ROOT}">
                 <img src="{$WEB_ROOT}/images/logo_200.png" alt="WANG Zhi Yong">
-                <h1>Test Style</h1>
+                <h1>wizcabbit</h1>
               </a>
             </div><!-- BEGIN logo -->
           </div>

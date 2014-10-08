@@ -2,8 +2,8 @@
 
 <div id="intro-wrapper">
   <div id="intro"><!-- BEGIN intro -->
-    <p>That is the text place holder, holder, holder, holder, holder, holder, holder, holder. </p>
-    <p>This is second line of palce holder, holder, holder, holder, holder, holder, holder, holder, holder, holder, holder, holder, holder, holder.</p>
+    <p>I am <span>wizcabbit</span>, a split Gemini interested in all unknown.</p>
+    <p>Currently, I am a front-end engineer, <span>research</span> on efficient and simple solutions from design to implementation, and <span>lead</span> teammates work comfortably and smoothly.</p>
   </div><!-- END intro -->
 </div>
 <div id="proj-wrapper"><!-- BEGIN project container -->
@@ -12,7 +12,7 @@
     <div class="proj-overview">
       <a href="{$WEB_ROOT}/projects/09-global-guider">
         <img src="{$WEB_ROOT}/images/proj_09_title.jpg" alt="Global Guider">
-        <h2>Global Guider</h2>
+        <h2>Global Guider (2008)</h2>
         <h3>Navigator prototype for GLASSES in 2008</h3>
       </a>
       <p>It shows informations "on" everything we see, shows direction "to" where we should go. Got Second Award in Microsoft Imagine Cup, 2008.</p>
@@ -28,8 +28,8 @@
     <div class="proj-overview">
       <a href="{$WEB_ROOT}/projects/08-iems">
         <img src="{$WEB_ROOT}/images/proj_08_title.jpg">
-        <h2>IEMS - Environment</h2>
-        <h3>UX Standard of GIS</h3>
+        <h2>IEMS (2009)</h2>
+        <h3>UX Standard for GIS</h3>
       </a>
       <p>Earth and environment changes all the time, but our GIS interface looks out of date. IEMS is next standard of Environment Information System</p>
       <div class="proj-skills">
