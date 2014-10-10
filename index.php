@@ -25,11 +25,14 @@ $smarty->config_dir = 'smarty/config/';
 $smarty->assign('WEB_ROOT', $WEB_ROOT);
 
 // Route all project pages to unique template
-$proj_name = $_GET['proj'];
-$proj_template = $WEB_PATH . '/templates/projects/' . $proj_name . '.tpl';
-
-if (file_exists($proj_template)) {
-  $smarty->display($proj_template);
+if (isset($_GET['proj'])) {
+  $proj_name = $_GET['proj'];
+  $proj_template = $WEB_PATH . '/templates/projects/' . $proj_name . '.tpl';
+  if (file_exists($proj_template)) {
+    $smarty->display($proj_template);
+  } else {
+    // TODO: 404 page.
+  }
 } else {
   $smarty->display('index.tpl');
 }
