@@ -3,6 +3,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>wizcabbit - Portfolio</title>
+    <link rel="shortcut icon" href="favicon.ico" />
     <!-- Stylesheet -->
     <link rel="stylesheet" href="{$WEB_ROOT}/styles/common.css">
     <link rel="stylesheet" href="{$WEB_ROOT}/styles/index.css">

@@ -64,7 +64,7 @@
         <h2>Napochi</h2>
         <h3>Creating healthier communities, enhancing best practices</h3>
       </a>
-      <p>Many time tracking software require too much user attention. One-Click TimeTracker takes a minimalist approach and requires only one click.Many time tracking software require too much user attention.</p>
+      <p>Doctors and nurses treat the appointment and medical history day by day, but their system looks like using Win 95 in 2012. Napochi focus in how to make best experience for doctors and nurses, to increase their efficiency and reduce errors. </p>
       <div class="proj-skills">
         <a>UX Design</a>
         <a>Computer Graphics</a>
@@ -78,9 +78,9 @@
       <a href="{$WEB_ROOT}/projects/12-ge-maker">
         <img src="{$WEB_ROOT}/images/proj_12_title.jpg">
         <h2>GE Centricity RIS-IC</h2>
-        <h3>Designer and template maker for medical workflow</h3>
+        <h3>Designer and template maker for medical work flow</h3>
       </a>
-      <p>Helping improve both departmental and enterprise-wide radiology productivity, administrative efficiency, and enhance patient care.</p>
+      <p>There are thousands forms in medical work flow, doctors needs efficient experience to use the templates. This tool take smart layout and intelligence to medical work flow.</p>
       <div class="proj-skills">
         <a>MVVM</a>
         <a>WPF</a>
@@ -96,7 +96,7 @@
         <h2>vHeard</h2>
         <h3>Transfer vision to sound, help blind man to learn the world</h3>
       </a>
-      <p>Many time tracking software require too much user attention. One-Click TimeTracker takes a minimalist approach and requires only one click.Many time tracking software require too much user attention. One-Click TimeTracker takes a minimalist approach and requires only one click.Many time tracking software require too much user attention. One-Click TimeTracker takes a minimalist approach and requires only one click.Many time tracking software require too much user attention.</p>
+      <p>Blind people has their own way to discover the world, hearing is the most powerful tool! We recognize the world's subject, color and other things, and transfer the vision to sound.</p>
       <div class="proj-skills">
         <a>UX Design</a>
         <a>Computer Graphics</a>
