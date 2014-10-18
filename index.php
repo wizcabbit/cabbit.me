@@ -4,7 +4,11 @@
  */
 
 $WEB_PATH = dirname(__FILE__);
+<<<<<<< HEAD
 $WEB_ROOT = '//test.cabbit.me/141014/';
+=======
+$WEB_ROOT = '//192.168.1.104/test';
+>>>>>>> develop
 
 
 // Initialize smary compnent

@@ -80,3 +80,23 @@
   font-size: 12px;
   cursor: pointer;
 }
+
+@media screen and (max-width: 1110px) and (min-width: 740px) {
+  #intro p {
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 740px) and (min-width: 370px) {
+  #intro p {
+    font-size: 21px;
+    line-height: 30px;
+    margin: 0;
+  }
+}
+@media screen and (max-width: 370px) {
+  #intro p {
+    font-size: 21px;
+    line-height: 30px;
+    margin: 0;
+  }
+}
