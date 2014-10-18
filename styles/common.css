@@ -215,9 +215,27 @@ ul {
   #main, #header {
     width: 370px;
   }
+  #main-wrapper {
+    padding-top: 70px;
+  }
+  #nav {
+    display: none;
+  }
+  #header {
+    margin-left: 20px;
+  }
 }
 @media screen and (max-width: 370px) {
   #main, #header {
     width: 370px;
+  }
+  #main-wrapper {
+    padding-top: 70px;
+  }
+  #nav {
+    display: none;
+  }
+  #header {
+    margin-left: 10px;
   }
 }
