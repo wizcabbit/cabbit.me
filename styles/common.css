@@ -211,31 +211,43 @@ ul {
     width: 740px;
   }
 }
-@media screen and (max-width: 740px) and (min-width: 370px) {
-  #main, #header {
+@media screen and (max-width: 740px) {
+  #main {
     width: 370px;
   }
-  #main-wrapper {
-    padding-top: 70px;
+  #header {
+    margin: 0 auto;
+    width: 350px;
+  }
+  #banner {
+    width: 180px;
+    height: 50px;
+    margin: auto;
+  }
+  #logo {
+    padding: 10px 0;
+  }
+  #logo img {
+    height: 32px;
+  }
+  #logo h1 {
+    left: 40px;
+    font-size: 30px;
   }
   #nav {
-    display: none;
+    position: inherit;
+    right: 0px;
+    overflow: auto;
+    border-top: dotted 1px;
   }
-  #header {
-    margin-left: 20px;
+  #nav ul {
+    padding: 0;
   }
-}
-@media screen and (max-width: 370px) {
-  #main, #header {
-    width: 370px;
+  #nav ul li a {
+    padding: 5px 20px 5px 10px;
+    font-size: 20px;
   }
   #main-wrapper {
-    padding-top: 70px;
-  }
-  #nav {
-    display: none;
-  }
-  #header {
-    margin-left: 10px;
+    padding-top: 70px; /* When nav toggle, 40 */
   }
 }

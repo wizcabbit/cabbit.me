@@ -4,7 +4,7 @@
  */
 
 $WEB_PATH = dirname(__FILE__);
-$WEB_ROOT = '//localhost/141014/';
+$WEB_ROOT = '//localhost/test/';
 
 
 // Initialize smary compnent
