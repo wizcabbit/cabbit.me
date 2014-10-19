@@ -152,6 +152,10 @@ ul {
   margin: 25px 0 10px 0;
 }
 
+#rights-c:after {
+  content: " | ";
+}
+
 #backtop {
   text-align: right;
 }
@@ -249,5 +253,9 @@ ul {
   }
   #main-wrapper {
     padding-top: 70px; /* When nav toggle, 40 */
+  }
+  #rights-c:after {
+    content: "";
+    display: block;
   }
 }
