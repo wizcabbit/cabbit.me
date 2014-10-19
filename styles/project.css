@@ -142,3 +142,21 @@ img.proj-09-solution {
   width: 310px !important;
   margin: 10px 0;
 }
+
+/* Base on device width */
+
+@media screen and (max-width: 740px) {
+  #main-sidebar {
+    display: none;
+  }
+  #proj-detail {
+    margin-left: 0;
+  }
+  #proj-attribute {
+    display: none;
+  }
+  #proj-intro {
+    margin-right: 0;
+    padding-right: 0;
+  }
+}

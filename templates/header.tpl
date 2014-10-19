@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width">
     <title>wizcabbit - Portfolio</title>
     <link rel="shortcut icon" href="favicon.ico" />
     <!-- Stylesheet -->
@@ -29,7 +30,7 @@
           </div>
           <div id="nav"><!-- BEGIN navigation -->
             <ul class="nav-links">
-              <li><a id="projects" href="{$WEB_ROOT}/projects/project-template.html">Projects</a></li>
+              <li><a id="projects" href="{$WEB_ROOT}">Projects</a></li>
               <li><a id="about" href="{$WEB_ROOT}/about.html">About</a></li>
               <li><a id="resume" href="{$WEB_ROOT}/resume.html">Resume</a></li>
             </ul>

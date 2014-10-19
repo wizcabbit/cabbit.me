@@ -4,7 +4,7 @@
  */
 
 $WEB_PATH = dirname(__FILE__);
-$WEB_ROOT = '//test.cabbit.me/141014/';
+$WEB_ROOT = '//test.cabbit.me/141019/';
 
 
 // Initialize smary compnent
