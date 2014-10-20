@@ -1,2 +1,3 @@
 RewriteEngine On
 RewriteRule  ^projects/(.*)$ index.php?proj=$1 [QSA]
+RewriteRule  ^about$ index.php?static=about [QSA]
