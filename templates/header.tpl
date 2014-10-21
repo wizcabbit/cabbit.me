@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="{$WEB_ROOT}/styles/common.css">
     <link rel="stylesheet" href="{$WEB_ROOT}/styles/index.css">
     <link rel="stylesheet" href="{$WEB_ROOT}/styles/project.css">
+    <link rel="stylesheet" href="{$WEB_ROOT}/styles/static.css">
     <!-- jQuery Library and plugins -->
     <script src="{$WEB_ROOT}/scripts/lib/jquery-1.11.1.js"></script>
     <script src="{$WEB_ROOT}/scripts/lib/imagesloaded.pkgd.js"></script>
@@ -31,7 +32,7 @@
           <div id="nav"><!-- BEGIN navigation -->
             <ul class="nav-links">
               <li><a id="projects" href="{$WEB_ROOT}">Projects</a></li>
-              <li><a id="about" href="{$WEB_ROOT}/about.html">About</a></li>
+              <li><a id="about" href="{$WEB_ROOT}/about">About</a></li>
               <li><a id="resume" href="{$WEB_ROOT}/resume.html">Resume</a></li>
             </ul>
           </div><!-- BEGIN navigation -->

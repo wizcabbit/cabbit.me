@@ -4,8 +4,8 @@
 
 <div id="proj-detail">
   <div id="proj-attribute">
-    <h5>Type</h5>
-    <span><a href="//www.imaginecup.com">Microsoft Imagine Cup</a></span>
+    <h5>Client</h5>
+    <span><a href="//sports.sohu.com/">Sohu Sports</a></span>
     <h5>Time</h5>
     <span>September, 2011</span>
     <h5>Team & Role</h5>
