@@ -59,7 +59,7 @@
         <p>Using this theory, we can calculate the building's mapping position in screen, that is the magic we can mark the information "ON" the building.</p>
         <p>Sounds like our daily life become a FPS game? YES! That's COOL!</p>
       </div>
-      <img id="proj-09-theory-img" alt="Global Guider theory">
+      <img id="proj-09-theory-img" src="{$WEB_ROOT}/images/proj_09_theory.jpg" alt="Global Guider theory">
     </div>
 
     <h4>Architecture</h4>
