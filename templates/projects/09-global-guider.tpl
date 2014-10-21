@@ -15,12 +15,14 @@
     <span><a href="//weibo.com/saterwang">Sater WANG</a></span>
     <span>ME (Tech Leader)</span>
     <h5>Skills & Technologys</h5>
+
+    <span>HTML / CSS</span>
+    <span>Javascript</span>
+    <span>XAML</span>
     <span>.NET Framework</span>
     <span>C#</span>
     <span>WPF</span>
-    <span>XAML</span>
-    <span>HTML / CSS</span>
-    <span>Javascript</span>
+    <span>SQL</span>
     <span>Google Map API</span>
     <span>Google Earch API</span>
     <span>Bluetooth</span>

@@ -12,5 +12,11 @@
         <h5>UX Standard for GIS</h5>
       </a>
     </li>
+    <li>
+      <a href="{$WEB_ROOT}/projects/11-sohu-nba">
+        <h4>Sohu NBA Channel (2011)</h4>
+        <h5>NBA Live Player</h5>
+      </a>
+    </li>
   </ul>
 </div>
