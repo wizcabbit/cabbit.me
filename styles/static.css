@@ -9,3 +9,58 @@
 .static a {
   border-bottom: 1px dotted #384556;
 }
+
+#resume h2 {
+  color: #333;
+  font-size: 28px;
+  font-weight: 300;
+  margin: 16px 0;
+}
+
+#resume h4 {
+  font-size: 16px;
+  border: solid #ddd;
+  border-width: 0 0 1px 0;
+  font-weight: normal;
+  margin: 15px 0 10px 0;
+  padding: 0 0 0.3em 0;
+  text-transform: uppercase;
+  padding-bottom: .5em;
+}
+
+#resume h5 {
+  font-size: 14px;
+  margin: .5em 0;
+  font-weight: normal;
+}
+
+#resume-skill {
+  float:right;
+  width: 200px;
+  border-left: solid 1px;
+  border-color: #ddd;
+  padding-left: 15px;
+}
+
+#resume-skill span {
+  display: block;
+  margin: 0 0 0 8px;
+  line-height: 20px;
+}
+
+#resume-download {
+  height: 50px;
+}
+
+#resume-content {
+  margin-right: 230px;
+  padding-right: 30px;
+  overflow: auto;
+}
+
+@media screen and (max-width: 1480px) and (min-width: 1110px) {
+  .static {
+    width: 960px;
+    margin: 0 auto;
+  }
+}
