@@ -69,6 +69,39 @@
   overflow: auto;
 }
 
+.resume-case {
+  position: relative;
+  margin-bottom: 12px;
+  padding-left: 1em;
+}
+
+.resume-case .company {
+  font-weight: normal;
+}
+
+.resume-case .date {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.resume-case .title {
+  display: block;
+  font-weight: bold;
+  margin: 4px 0;
+}
+
+.resume-case .description {
+  margin: 5px 0 5px 5px;
+  padding-left: 0;
+  list-style: disc inside;
+  font-size: 13px;
+}
+
+.resume-case .description li {
+  line-height: 20px;
+}
+
 @media screen and (max-width: 1480px) and (min-width: 1110px) {
   .static {
     width: 960px;
