@@ -15,12 +15,14 @@
     <span><a href="//weibo.com/saterwang">Sater WANG</a></span>
     <span>ME (Tech Leader)</span>
     <h5>Skills & Technologys</h5>
+
+    <span>HTML / CSS</span>
+    <span>Javascript</span>
+    <span>XAML</span>
     <span>.NET Framework</span>
     <span>C#</span>
     <span>WPF</span>
-    <span>XAML</span>
-    <span>HTML / CSS</span>
-    <span>Javascript</span>
+    <span>SQL</span>
     <span>Google Map API</span>
     <span>Google Earch API</span>
     <span>Bluetooth</span>
@@ -59,7 +61,7 @@
         <p>Using this theory, we can calculate the building's mapping position in screen, that is the magic we can mark the information "ON" the building.</p>
         <p>Sounds like our daily life become a FPS game? YES! That's COOL!</p>
       </div>
-      <img id="proj-09-theory-img" alt="Global Guider theory">
+      <img id="proj-09-theory-img" src="{$WEB_ROOT}/images/proj_09_theory.jpg" alt="Global Guider theory">
     </div>
 
     <h4>Architecture</h4>

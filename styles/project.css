@@ -76,6 +76,7 @@
   background-color: #e7eaf0;
   padding: 7px 15px;
   margin: 12px 0;
+  line-height: 20px;
 }
 
 #proj-intro h4 {
@@ -107,8 +108,9 @@
 }
 
 #proj-attribute h5 {
-  color: #777;
-  margin: 0 0 8px 0;
+  font-size: 14px;
+  color: #505a64;
+  margin: .7em 0 .3em 0;
   font-weight: 400;
 }
 
@@ -121,8 +123,6 @@
 /* Project 09 Global Guider */
 
 img.proj-09-solution {
-  width: 250px !important;
-  height: 240px;
   margin-right: 5px;
 }
 
@@ -145,6 +145,20 @@ img.proj-09-solution {
 
 /* Base on device width */
 
+<<<<<<< HEAD
+=======
+@media screen and (min-width: 1110px) {
+  img.proj-09-solution {
+    width: 250px !important;
+    height: 240px;
+  }
+}
+@media screen and (max-width: 1110px) and (min-width: 740px) {
+  img.proj-09-solution {
+    width: 100%;
+  }
+}
+>>>>>>> master
 @media screen and (max-width: 740px) {
   #main-sidebar {
     display: none;
@@ -159,4 +173,10 @@ img.proj-09-solution {
     margin-right: 0;
     padding-right: 0;
   }
+<<<<<<< HEAD
+=======
+  img.proj-09-solution {
+    width: 100%;
+  }
+>>>>>>> master
 }

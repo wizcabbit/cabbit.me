@@ -4,7 +4,11 @@
  */
 
 $WEB_PATH = dirname(__FILE__);
+<<<<<<< HEAD
 $WEB_ROOT = '//test.cabbit.me/141019/';
+=======
+$WEB_ROOT = '//localhost/test';
+>>>>>>> master
 
 
 // Initialize smary compnent
@@ -30,6 +34,14 @@ if (isset($_GET['proj'])) {
   $proj_template = $WEB_PATH . '/templates/projects/' . $proj_name . '.tpl';
   if (file_exists($proj_template)) {
     $smarty->display($proj_template);
+  } else {
+    // TODO: 404 page.
+  }
+} else if (isset($_GET['static'])) {
+  $page_name = $_GET['static'];
+  $page_template = $WEB_PATH . '/templates/static/' . $page_name . '.tpl';
+  if (file_exists($page_template)) {
+    $smarty->display($page_template);
   } else {
     // TODO: 404 page.
   }
