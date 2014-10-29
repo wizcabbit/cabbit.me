@@ -10,6 +10,17 @@
   border-bottom: 1px dotted #384556;
 }
 
+#about div {
+  width: 650px;
+  float: left;
+}
+
+#about img {
+  width: 290px;
+  margin-top: 80px;
+  float: right;
+}
+
 #resume h2 {
   color: #333;
   font-size: 28px;
