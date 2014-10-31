@@ -145,20 +145,19 @@ img.proj-09-solution {
 
 /* Base on device width */
 
-<<<<<<< HEAD
-=======
 @media screen and (min-width: 1110px) {
   img.proj-09-solution {
     width: 250px !important;
     height: 240px;
   }
 }
+
 @media screen and (max-width: 1110px) and (min-width: 740px) {
   img.proj-09-solution {
     width: 100%;
   }
 }
->>>>>>> master
+
 @media screen and (max-width: 740px) {
   #main-sidebar {
     display: none;
@@ -173,10 +172,4 @@ img.proj-09-solution {
     margin-right: 0;
     padding-right: 0;
   }
-<<<<<<< HEAD
-=======
-  img.proj-09-solution {
-    width: 100%;
-  }
->>>>>>> master
 }

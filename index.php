@@ -4,12 +4,8 @@
  */
 
 $WEB_PATH = dirname(__FILE__);
-<<<<<<< HEAD
-$WEB_ROOT = '//test.cabbit.me/141019/';
-=======
-$WEB_ROOT = '//localhost/test';
->>>>>>> master
 
+$WEB_ROOT = '//localhost/test';
 
 // Initialize smary compnent
 require 'smarty/Smarty.class.php';
