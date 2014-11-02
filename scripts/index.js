@@ -6,3 +6,14 @@ $(function(){
       });
     });
 });
+
+$(document).on("scroll", function(){
+  topOffset = $(this).scrollTop();
+  if (topOffset > 50)
+  {
+    $("#header").addClass("zoomed");
+  }
+  else{
+    $("#header").removeClass("zoomed");
+  }
+});

@@ -78,10 +78,20 @@ ul {
   width: 335px;
   height: 80px;
   padding: 0;
+
+  transition: all .2s ease-in-out;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
 }
+
 
 #logo {
   padding: 20px 0;
+  transition: all .2s ease-in-out;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
 }
 
 #logo a {
@@ -92,6 +102,10 @@ ul {
 #logo img {
   height: 40px;
   display: block;
+  transition: all .2s ease-in-out;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
 }
 
 #logo h1 {
@@ -100,6 +114,10 @@ ul {
   left: 55px;
   margin: 0;
   font-weight: 200;
+  transition: all .2s ease-in-out;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
 }
 
 #nav {
@@ -122,6 +140,31 @@ ul {
   padding: 30px 20px;
   font-size: 20px;
   text-transform: uppercase;
+  transition: all .2s ease-in-out;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+}
+
+.zoomed #banner {
+  height: 50px;
+}
+
+.zoomed #logo {
+  padding: 10px 0;
+}
+
+.zoomed #logo h1 {
+  font-size: 28px;
+  left: 45px;
+}
+
+.zoomed #logo img {
+  height: 30px;
+}
+
+.zoomed #nav ul li a {
+  padding: 15px 25px;
 }
 
 /* Body Style */
