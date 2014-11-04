@@ -6,6 +6,7 @@
 $WEB_PATH = dirname(__FILE__);
 
 $WEB_ROOT = '//localhost/test';
+$IS_DEBUG = true;
 
 // Initialize smary compnent
 require 'smarty/Smarty.class.php';
@@ -23,6 +24,7 @@ $smarty->config_dir = 'smarty/config/';
 
 // Initialize root path
 $smarty->assign('WEB_ROOT', $WEB_ROOT);
+$smarty->assign('IS_DEBUG', $IS_DEBUG);
 
 // Route all project pages to unique template
 if (isset($_GET['proj'])) {

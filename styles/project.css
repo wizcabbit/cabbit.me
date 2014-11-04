@@ -2,37 +2,31 @@
   background-color: #fff;
   box-shadow: 0px 1px 4px 0px #ccc;
 }
-
 /* Left Sidebar, project list */
 
 #main-sidebar {
   float: left;
   width: 200px;
 }
-
 #main-sidebar ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
-
 #main-sidebar a {
   padding: 20px;
   border: none;
   display: block;
 }
-
 #main-sidebar h4 {
   margin: 0;
   font-weight: normal;
   margin-bottom: 5px;
 }
-
 #main-sidebar h5 {
   margin: 0;
   font-weight: inherit;
 }
-
 /* Project detail */
 
 #proj-detail {
@@ -40,34 +34,28 @@
   padding: 20px;
   overflow: auto;
 }
-
 #proj-detail a {
   border-bottom: 1px dotted #384556;
 }
-
 #proj-detail ul {
   list-style: initial;
   font-size: 14px;
   padding-left: 25px;
   line-height: 20px;
 }
-
 #proj-detail video {
   max-width: 100%;
 }
-
 #proj-intro {
   margin-right: 170px;
   padding-right: 30px;
   overflow: auto;
 }
-
 #proj-intro h2 {
   margin: 0 0 15px 0;
   color: #333;
   font-weight: 300;
 }
-
 #proj-intro span {
   display: block;
   border-style: none;
@@ -77,7 +65,6 @@
   margin: 12px 0;
   line-height: 20px;
 }
-
 #proj-intro h4 {
   font-size: 24px;
   border: solid #ddd;
@@ -86,62 +73,52 @@
   margin: 15px 0 10px 0;
   padding: 0 0 0.3em 0;
 }
-
 #proj-intro p {
   margin: 6px 0;
 }
-
 #proj-intro img {
   width: 100%;
   max-width: 100%;
 }
-
 /* Project attributes, right sidebar */
 
 #proj-attribute {
-  float:right;
+  float: right;
   width: 150px;
   border-left: solid 1px;
   border-color: #ddd;
   padding-left: 15px;
 }
-
 #proj-attribute h5 {
   font-size: 14px;
   color: #505a64;
   margin: .7em 0 .3em 0;
   font-weight: 400;
 }
-
 #proj-attribute span {
   display: block;
   margin: 6px 0;
   line-height: 20px;
 }
-
 /* Project 09 Global Guider */
 
 img.proj-09-solution {
   margin-right: 5px;
 }
-
 #proj-09-theory-container {
   overflow: auto;
 }
-
 #proj-09-theory-text {
   float: left;
   width: 320px;
   max-width: 100%;
   overflow: auto;
 }
-
 #proj-09-theory-img {
   float: right;
   width: 310px !important;
   margin: 10px 0;
 }
-
 /* Base on device width */
 
 @media screen and (min-width: 1110px) {
@@ -150,13 +127,11 @@ img.proj-09-solution {
     height: 240px;
   }
 }
-
 @media screen and (max-width: 1110px) and (min-width: 740px) {
   img.proj-09-solution {
     width: 100%;
   }
 }
-
 @media screen and (max-width: 740px) {
   #main-sidebar {
     display: none;

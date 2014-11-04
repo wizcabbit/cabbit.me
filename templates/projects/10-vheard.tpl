@@ -7,13 +7,13 @@
     <h5>Type</h5>
     <span><a href="//www.imaginecup.com">Microsoft Imagine Cup</a></span>
     <h5>Time</h5>
-    <span>April, 2009</span>
+    <span>April, 2010</span>
     <h5>Team & Role</h5>
-    <span><a href="//www.facebook.com/chen.lu.568">LU Chen</a></span>
-    <span><a href="//www.facebook.com/yun.sheng.52">SHENG Yun</a></span>
-    <span>SHAO Rui, Thinrey.XU,</span>
-    <span><a href="//weibo.com/saterwang">Sater WANG</a></span>
-    <span>ME (Tech Leader)</span>
+    <span><a href="//weibo.com/sunnybird">Facilia WU</a></span>
+    <span><a href="//weibo.com/zhaifanzf">ZHAI Fan</a></span>
+    <span><a href="//www.facebook.com/liu.dubang">LIU Du Bang</a></span>
+    <span>QIN Hong Ming</span>
+    <span>ME (Mentor)</span>
     <h5>Skills & Technologys</h5>
     <span>.NET Framework</span>
     <span>C#</span>
@@ -21,23 +21,22 @@
     <span>XAML</span>
     <span>HTML / CSS</span>
     <span>Javascript</span>
-    <span>Google Map API</span>
-    <span>Google Earch API</span>
     <span>Bluetooth</span>
+    <span>Pattern Recognition</span>
     <h5>Tools</h5>
     <span>Blend (Front-end)</span>
     <span>Visual Studio (Dev)</span>
     <span>SQL Server (Data)</span>
     <h5>Deliverables</h5>
-    <span>Client in Tablet</span>
     <span>Client in Mobile</span>
     <span>Server side</span>
-    <span>Web Spider and others</span>
   </div>
   <div id="proj-intro">
-    <h2>Global Guider</h2>
-    <p>In 2012, Goggle announced their best wearable device - Goggle Glass, but in 2009, our team in Beijing University of Technology had shown our navigation prototype for Glass like devices, named Global Guider.</p>
-    <span>We have a dream, show us everything WHAT we looks, WHERE we should go.</span>
+    <h2>vHeard</h2>
+    <p>We want to help the people, the people who can not see, the people who lost their sight.</p>
+    <p>An old artist without any sight told me that, the heard and touch is very sensitive for them. Their ears are their eyes, they recognise the world through heard. That's why we implement vHeard.</p>
+    <p>vHeard, transfer the vision into sound wave, to give another way to help people can not see.</p>
+    <span>They are the people like us, just have sensitive heard.</span>
     <img src="{$WEB_ROOT}/images/proj_09_main.jpg" alt="Global Guider main frame">
 
     <h4>Background</h4>
