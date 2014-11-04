@@ -40,19 +40,19 @@
     <h2>RESUME</h2>
     <h4>Education</h4>
     <div class="resume-case">
+      <span class="date">09/2010 - 06/2013</span>
       <span class="company">Beijing University of Technology, </span>
       <span class="position">Master of Computer Science and Technology</span>
-      <span class="date">09/2010 - 06/2013</span>
     </div>
     <div class="resume-case">
+      <span class="date">09/2006 - 06/2010</span>
       <span class="company">Beijing University of Technology, </span>
       <span class="position">Bachelor of Computer Science and Technology</span>
-      <span class="date">09/2006 - 06/2010</span>
     </div>
     <h4>Professional Experience</h4>
     <div class="resume-case">
-      <span class="company">Wanda Group</span>
       <span class="date">07/2014 - Present</span>
+      <span class="company">Wanda Group</span>
       <span class="title">Senior Front-end Engineer</span>
       <ul class="description">
         <li>Front-end architecture of Wanda's marketing system</li>
@@ -78,24 +78,24 @@
       </ul>
     </div>
     <div class="resume-case">
-      <span class="company">Beijing Certificate Authorization</span>
       <span class="date">09/2011 - 03/2012</span>
+      <span class="company">Beijing Certificate Authorization</span>
       <span class="title">UI Security Intern</span>
       <ul class="description">
         <li>Safety input control, used by Bank of China, Bank of Beijing and others</li>
       </ul>
     </div>
     <div class="resume-case">
-      <span class="company">Microsoft Research Asia</span>
       <span class="date">07/2011 - 08/2011</span>
+      <span class="company">Microsoft Research Asia</span>
       <span class="title">Front-end Intern</span>
       <ul class="description">
         <li>Bing search engine's web and wap page implement</li>
       </ul>
     </div>
     <div class="resume-case">
-      <span class="company">Frontfree</span>
       <span class="date">07/2008 - 06/2010</span>
+      <span class="company">Frontfree</span>
       <span class="title">Chairmen</span>
       <ul class="description">
         <li>A technology organization focus on UI/UX design and .NET implement</li>
@@ -105,8 +105,8 @@
       </ul>
     </div>
     <div class="resume-case">
-      <span class="company">Digihail Technology</span>
       <span class="date">12/2006 - 10/2010</span>
+      <span class="company">Digihail Technology</span>
       <span class="title">Architecture, Engineer, Intern</span>
       <ul class="description">
         <li>First batch of employees in this startup company</li>

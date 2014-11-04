@@ -9,7 +9,7 @@ $(function(){
 
 $(document).on("scroll", function(){
   topOffset = $(this).scrollTop();
-  if (topOffset > 50)
+  if (topOffset > 25)
   {
     $("#header").addClass("zoomed");
   }

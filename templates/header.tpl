@@ -26,7 +26,6 @@
           <div id="nav"><!-- BEGIN navigation -->
             <ul class="nav-links">
               <li><a id="projects" href="{$WEB_ROOT}">Projects</a></li>
-              <li><a id="about" href="{$WEB_ROOT}/about">About</a></li>
               <li><a id="resume" href="{$WEB_ROOT}/resume">Resume</a></li>
             </ul>
           </div><!-- BEGIN navigation -->
