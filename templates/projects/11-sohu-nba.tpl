@@ -1,3 +1,6 @@
+{$PAGE_TITLE="Sohu NBA Channel - wizcabbit"}
+{$PAGE_KEYWORDS="Sohu,NBA,video,live"}
+
 {include file="header.tpl"}
 
 {include file="projects/proj-sidebar.tpl"}

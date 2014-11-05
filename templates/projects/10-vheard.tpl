@@ -1,3 +1,6 @@
+{$PAGE_TITLE="vHeard - wizcabbit"}
+{$PAGE_KEYWORDS="vHeard,Imagine Cup,sight to wave"}
+
 {include file="header.tpl"}
 
 {include file="projects/proj-sidebar.tpl"}

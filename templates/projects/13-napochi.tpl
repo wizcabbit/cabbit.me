@@ -1,3 +1,6 @@
+{$PAGE_TITLE="Napochi - wizcabbit"}
+{$PAGE_KEYWORDS="Napochi,medical"}
+
 {include file="header.tpl"}
 
 {include file="projects/proj-sidebar.tpl"}

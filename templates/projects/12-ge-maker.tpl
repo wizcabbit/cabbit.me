@@ -1,3 +1,6 @@
+{$PAGE_TITLE="GE Centricity RIS-IC - wizcabbit"}
+{$PAGE_KEYWORDS="GE,RIS,template"}
+
 {include file="header.tpl"}
 
 {include file="projects/proj-sidebar.tpl"}

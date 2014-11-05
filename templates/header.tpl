@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>{$PAGE_TITLE|default:'wizcabbit - Portfolio'}</title>
+    <meta charset="utf-8">
+    <meta name="author" content="wizcabbit,frontfreewzy@gmail.com">
+    <meta name="keywords" content="wizcabbit,Wang Zhi Yong,portfolio,resume,frontfree,{$PAGE_KEYWORDS|default:''}">
+    <meta name="description" content="wizcabbit (WANG Zhi Yong)'s portfolio, resume.">
     <meta name="viewport" content="width=device-width">
-    <title>wizcabbit - Portfolio</title>
     <link rel="shortcut icon" href="favicon.ico" />
 {if $IS_DEBUG}
 {literal}

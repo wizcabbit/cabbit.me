@@ -1,3 +1,6 @@
+{$PAGE_TITLE="IEMS - wizcabbit"}
+{$PAGE_KEYWORDS="IEMS,enviroment,Imagine Cup,2008"}
+
 {include file="header.tpl"}
 
 {include file="projects/proj-sidebar.tpl"}
