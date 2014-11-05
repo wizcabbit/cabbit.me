@@ -1,4 +1,4 @@
-{$PAGE_TITLE="Sohu NBA Channel - wizcabbit"}
+{$PAGE_TITLE="Sohu NBA Channel @wizcabbit"}
 {$PAGE_KEYWORDS="Sohu,NBA,video,live"}
 
 {include file="header.tpl"}
@@ -38,6 +38,10 @@
     <h4>Live Events</h4>
     <p>Every time the game has new events, such as dunk, bank, jump shot, set shot, event icon will appeared in control bar and virtual yard. User could replay to any time point ever played.</p>
     <img src="{$WEB_ROOT}/images/proj_11_bar.jpg" alt="Sohu NBA Live Events">
+
+    <h4>Information Library</h4>
+    <img src="{$WEB_ROOT}/images/proj_11_infos.jpg" alt="Sohu NBA Informations">
+    <p>NBA information library includes team, player and game statistics data, reorganised into database, and shown in user friendly interface.</p>
   </div>
 
 </div>

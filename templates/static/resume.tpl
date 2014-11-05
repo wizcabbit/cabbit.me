@@ -1,3 +1,6 @@
+{$PAGE_TITLE="Resume @wizcabbit"}
+{$PAGE_KEYWORDS="resume,wizcabbit,Wang Zhi Yong,Wang Zhiyong"}
+
 {include file="header.tpl"}
 
 <div id="resume" class="static">

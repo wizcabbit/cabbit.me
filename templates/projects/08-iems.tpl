@@ -1,4 +1,4 @@
-{$PAGE_TITLE="IEMS - wizcabbit"}
+{$PAGE_TITLE="IEMS @wizcabbit"}
 {$PAGE_KEYWORDS="IEMS,enviroment,Imagine Cup,2008"}
 
 {include file="header.tpl"}
@@ -34,9 +34,12 @@
     <p>IEMS, means Integrated Environment Monitoring System.</p>
     <p>In 2008, we planed to join Microsoft's Imagine Cup, UI/UX topic. Because of the other project development, we have to use kinds of GIS (geography information system). We found the GIS's user interface are totally nightmare. The terminal, console and panel divided into windows, it is hard to tell users that is the modern user interface in 2008. So we decide to build a new standard for next generation GIS.</p>
     <span>We build this application in .NET platform using WPF, I hope one day I have time to transfer it into web application.</span>
-    <img src="../images/project.1.click_495_220.png">
+    <img src="{$WEB_ROOT}/images/proj_08_login.jpg" alt="IEMS Login">
+    <span>We used 3D programming in WPF to implement the modern user interface, the dashboard looks like from technology film.</span>
+    <img src="{$WEB_ROOT}/images/proj_08_detail.jpg" alt="IEMS Detail">
     <h4>Architecture & Technology</h4>
     <p>Today we use MVVM pattern in many projects, but in 2008, it is first time I heard something like "View Model". I designed the MVVM structure to help designer modify our prototype quickly. After that, I love MVVM so much.</p>
+    <p>Today I use MVVM library such as angular.js in JavaScript, I found the basic theory of architecture is from IEMS.</p>
     <h4>Award</h4>
     <p>Our team present IEMS in Paris, the World Final of Imagine Cup. Finally we got top six in the world.</p>
   </div>

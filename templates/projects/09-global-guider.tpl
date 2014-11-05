@@ -1,4 +1,4 @@
-{$PAGE_TITLE="Global Guider - wizcabbit"}
+{$PAGE_TITLE="Global Guider @wizcabbit"}
 {$PAGE_KEYWORDS="Global Guider,Imagine Cup,2009,wearable device"}
 
 {include file="header.tpl"}
