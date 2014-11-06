@@ -13,8 +13,7 @@
       </a>
     </li>
     <li>
-      <!--<a href="{$WEB_ROOT}/projects/12-ge-maker">-->
-      <a href="#">
+      <a href="{$WEB_ROOT}/projects/12-ge-maker">
         <h4>GE Centricity RIS-IC (2012)</h4>
         <h5>Template Maker for medical work flow</h5>
       </a>
@@ -26,8 +25,7 @@
       </a>
     </li>
     <li>
-      <!--<a href="{$WEB_ROOT}/projects/10-vheard">-->
-      <a href="#">
+      <a href="{$WEB_ROOT}/projects/10-vheard">
         <h4>vHeard (2010)</h4>
         <h5>Transfer sight to sound, to help people can not see</h5>
       </a>

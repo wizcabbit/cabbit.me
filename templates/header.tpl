@@ -7,7 +7,7 @@
     <meta name="keywords" content="wizcabbit,Wang Zhi Yong,portfolio,resume,frontfree,{$PAGE_KEYWORDS|default:''}">
     <meta name="description" content="wizcabbit (WANG Zhi Yong)'s portfolio, resume.">
     <meta name="viewport" content="width=device-width">
-    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="shortcut icon" href="{$WEB_ROOT}/favicon.ico" />
 {if !$IS_DEBUG}
 {literal}
     <script>

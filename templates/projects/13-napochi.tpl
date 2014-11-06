@@ -1,4 +1,4 @@
-{$PAGE_TITLE="Napochi @wizcabbit"}
+{$PAGE_TITLE="Napochi THISBoard @wizcabbit"}
 {$PAGE_KEYWORDS="Napochi,medical"}
 
 {include file="header.tpl"}
@@ -34,7 +34,7 @@
     <h2>Napochi THISBoard</h2>
     <p>THISBoard seamlessly integrates with napochi's other systems, but is capable of interfacing with any standards-compliant legacy EHR or ADT system. It integrates information from legacy systems and user touch screen interaction to bring together the features of multiple legacy systems, all in one touch.</p>
     <span>It offers increased resource efficiency with acuity-driven patient assignments providing the “Best Care”.</span>
-    <iframe id="vp19FhCN" title="Video Player" width="648" height="360" frameborder="0" src="http://embed.animoto.com/play.html?w=swf/vp1&amp;e=1336416429&amp;f=9FhCNxXDfAJokxFZGHL5pQ&amp;d=144&amp;m=p&amp;r=360p+720p&amp;volume=100&amp;start_res=360p&amp;i=m&amp;ct=&amp;cu=http://www.napochi.com&amp;options=" allowfullscreen=""></iframe>
+    <iframe id="vp19FhCN" title="Video Player" width="648" height="360" frameborder="0" src="http://embed.animoto.com/play.html?w=swf/vp1&amp;e=1336416429&amp;f=9FhCNxXDfAJokxFZGHL5pQ&amp;d=144&amp;m=p&amp;r=360p+720p&amp;volume=100&amp;start_res=360p&amp;i=m&amp;ct=&amp;options=" allowfullscreen=""></iframe>
 
     <h4>Features</h4>
     <p>THISBoard™ provides users with a familiar media-rich interactive interface, while allowing them to make acuity-driven patient assignments - something that the prevalent analog dry erase board simply cannot do. Nurse managers can utilize real-time data to provide the best care, by the best provider, at the right time thereby improving efficiency and reducing staff turnover. </p>

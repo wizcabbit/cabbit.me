@@ -12,7 +12,7 @@
     <div class="proj-overview">
       <a href="{$WEB_ROOT}/projects/13-napochi">
         <img src="{$WEB_ROOT}/images/proj_13_title.jpg">
-        <h2>Napochi</h2>
+        <h2>Napochi THISBoard</h2>
         <h3>Creating healthier communities, enhancing best practices</h3>
       </a>
       <p>Doctors and nurses treat the appointment and medical history day by day, but their system looks like using Win 95 in 2012. Napochi focus in how to make best experience for doctors and nurses, to increase their efficiency and reduce errors. </p>
@@ -75,8 +75,7 @@
 
   <div class="proj">
     <div class="proj-overview">
-      <!--<a href="{$WEB_ROOT}/projects/12-ge-maker">-->
-      <a href="#">
+      <a href="{$WEB_ROOT}/projects/12-ge-maker">
         <img src="{$WEB_ROOT}/images/proj_12_title.jpg">
         <h2>GE Centricity RIS-IC</h2>
         <h3>Designer and template maker for medical work flow</h3>
@@ -92,8 +91,7 @@
 
   <div class="proj">
     <div class="proj-overview">
-      <!--<a href="{$WEB_ROOT}/projects/10-vheard">-->
-      <a href="#">
+      <a href="{$WEB_ROOT}/projects/10-vheard">
         <img src="{$WEB_ROOT}/images/proj_10_title.jpg">
         <h2>vHeard</h2>
         <h3>Transfer vision to sound, help blind man to learn the world</h3>
