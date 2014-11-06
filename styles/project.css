@@ -41,7 +41,11 @@
   list-style: initial;
   font-size: 14px;
   padding-left: 25px;
+  padding-bottom: 10px;
   line-height: 20px;
+}
+#proj-detail li {
+  margin: 3px 0;
 }
 #proj-detail video {
   max-width: 100%;
@@ -49,7 +53,7 @@
 #proj-intro {
   margin-right: 170px;
   padding-right: 30px;
-  overflow: auto;
+  overflow: hidden;
 }
 #proj-intro h2 {
   margin: 0 0 15px 0;
@@ -134,6 +138,12 @@ img.proj-09-solution {
 @media screen and (max-width: 1110px) and (min-width: 740px) {
   img.proj-09-solution {
     width: 100%;
+  }
+  #main-sidebar {
+    width: 190px;
+  }
+  #proj-detail {
+    margin-left: 200px;
   }
 }
 @media screen and (max-width: 740px) {

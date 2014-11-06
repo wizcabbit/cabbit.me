@@ -1,0 +1,53 @@
+body {
+  background-image: url('../images/proj_10_bg.jpg');
+  background-repeat: repeat-x;
+  background-attachment: fixed;
+  background-position: right;
+}
+#main-sidebar, #proj-detail {
+  background-color: transparent;
+  box-shadow: initial;
+}
+#main-sidebar h4 {
+  font-weight: normal;
+}
+#main-sidebar h5 {
+  font-weight: 300;
+}
+#proj-intro span {
+  background-image: url('../images/proj_10_h2.jpg');
+  background-repeat: round;
+}
+.proj-10-title {
+  background-image: url('../images/proj_10_h2.jpg');
+  background-repeat: round;
+  height: 17px;
+  margin-top: -28px;
+  border-radius: 3px;
+}
+#proj-detail h2 {
+  margin-left: 10px;
+  font-family: "Century Gothic";
+}
+#proj-intro h4 {
+  border: solid #FF9900;
+  border-width: 0 0 2px 0;
+}
+#proj-attribute a {
+  font-weight: normal;
+}
+@media screen and (max-width: 1110px) and (min-width: 740px) {
+  #main-sidebar {
+    width: 180px;
+  }
+  #main-sidebar a {
+    padding: 20px 10px;
+  }
+  #proj-detail {
+    margin-left: 180px;
+    padding-left: 10px;
+  }
+  #proj-intro {
+    padding-right: 10px;
+  }
+}

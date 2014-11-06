@@ -6,6 +6,12 @@
         <h5>Healthier communities, enhancing best practices</h5>
       </a>
     </li>
+        <li>
+      <a href="{$WEB_ROOT}/projects/10-vheard">
+        <h4>vHeard (2010)</h4>
+        <h5>Transfer sight to sound, to help people can not see</h5>
+      </a>
+    </li>
     <li>
       <a href="{$WEB_ROOT}/projects/09-global-guider">
         <h4>Global Guider (2009)</h4>
@@ -22,12 +28,6 @@
       <a href="{$WEB_ROOT}/projects/11-sohu-nba">
         <h4>Sohu NBA Channel (2011)</h4>
         <h5>NBA Live Player</h5>
-      </a>
-    </li>
-    <li>
-      <a href="{$WEB_ROOT}/projects/10-vheard">
-        <h4>vHeard (2010)</h4>
-        <h5>Transfer sight to sound, to help people can not see</h5>
       </a>
     </li>
     <li>

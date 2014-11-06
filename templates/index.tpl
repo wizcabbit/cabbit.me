@@ -8,7 +8,7 @@
 </div>
 <div id="proj-wrapper"><!-- BEGIN project container -->
 
-  <div class="proj">
+  <div class="proj-thumb">
     <div class="proj-overview">
       <a href="{$WEB_ROOT}/projects/13-napochi">
         <img src="{$WEB_ROOT}/images/proj_13_title.jpg">
@@ -24,7 +24,23 @@
     </div>
   </div>
 
-  <div class="proj">
+  <div class="proj-thumb">
+    <div class="proj-overview">
+      <a href="{$WEB_ROOT}/projects/10-vheard">
+        <img src="{$WEB_ROOT}/images/proj_10_title.jpg">
+        <h2>vHeard</h2>
+        <h3>Transfer vision to sound, help blind man to learn the world</h3>
+      </a>
+      <p>Blind people has their own way to discover the world, hearing is the most powerful tool! We recognize the world's subject, color and other things, and transfer the vision to sound.</p>
+      <div class="proj-skills">
+        <a>UX Design</a>
+        <a>Computer Graphics</a>
+        <a>Plug-in Architecture</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="proj-thumb">
     <div class="proj-overview">
       <a href="{$WEB_ROOT}/projects/09-global-guider">
         <img src="{$WEB_ROOT}/images/proj_09_title.jpg" alt="Global Guider">
@@ -40,24 +56,7 @@
     </div>
   </div>
 
-  <div class="proj">
-    <div class="proj-overview">
-      <a href="{$WEB_ROOT}/projects/11-sohu-nba">
-        <img src="{$WEB_ROOT}/images/proj_11_title.jpg">
-        <h2>Sohu's NBA Channel</h2>
-        <h3>Make immersive experience for NBA Live, more interesting</h3>
-      </a>
-      <p>Many time tracking software require too much user attention. One-Click TimeTracker takes a minimalist approach and requires only one click.Many time tracking software require too much user attention. One-Click TimeTracker takes a minimalist approach and requires only one click.</p>
-      <div class="proj-skills">
-        <a>HTML 5</a>
-        <a>CSS 3</a>
-        <a>jQuery</a>
-        <a>Front-end Development</a>
-      </div>
-    </div>
-  </div>
-
-  <div class="proj">
+  <div class="proj-thumb">
     <div class="proj-overview">
       <a href="{$WEB_ROOT}/projects/08-iems">
         <img src="{$WEB_ROOT}/images/proj_08_title.jpg">
@@ -73,7 +72,7 @@
     </div>
   </div>
 
-  <div class="proj">
+  <div class="proj-thumb">
     <div class="proj-overview">
       <a href="{$WEB_ROOT}/projects/12-ge-maker">
         <img src="{$WEB_ROOT}/images/proj_12_title.jpg">
@@ -89,18 +88,19 @@
     </div>
   </div>
 
-  <div class="proj">
+  <div class="proj-thumb">
     <div class="proj-overview">
-      <a href="{$WEB_ROOT}/projects/10-vheard">
-        <img src="{$WEB_ROOT}/images/proj_10_title.jpg">
-        <h2>vHeard</h2>
-        <h3>Transfer vision to sound, help blind man to learn the world</h3>
+      <a href="{$WEB_ROOT}/projects/11-sohu-nba">
+        <img src="{$WEB_ROOT}/images/proj_11_title.jpg">
+        <h2>Sohu's NBA Channel</h2>
+        <h3>Make immersive experience for NBA Live, more interesting</h3>
       </a>
-      <p>Blind people has their own way to discover the world, hearing is the most powerful tool! We recognize the world's subject, color and other things, and transfer the vision to sound.</p>
+      <p>Many time tracking software require too much user attention. One-Click TimeTracker takes a minimalist approach and requires only one click.Many time tracking software require too much user attention. One-Click TimeTracker takes a minimalist approach and requires only one click.</p>
       <div class="proj-skills">
-        <a>UX Design</a>
-        <a>Computer Graphics</a>
-        <a>Plug-in Architecture</a>
+        <a>HTML 5</a>
+        <a>CSS 3</a>
+        <a>jQuery</a>
+        <a>Front-end Development</a>
       </div>
     </div>
   </div>
