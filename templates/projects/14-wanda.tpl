@@ -81,7 +81,6 @@
     <h4>Award</h4>
     <p>Global Guider got Second Award in Microsoft Imagine Cup, 2008, Software Design topic.</p>
   </div>
-
 </div>
 
 {include file="footer.tpl"}
