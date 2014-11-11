@@ -51,7 +51,7 @@ ul {
   z-index: 400;
 }
 #header {
-  width: 960px;
+  max-width: 1400px;
   margin: 0 auto;
   position: relative;
 }
@@ -102,7 +102,7 @@ ul {
 #nav {
   position: absolute;
   top: 0;
-  right: -10px;
+  right: 10px;
 }
 #nav ul {
   list-style: none;
@@ -118,6 +118,8 @@ ul {
   -webkit-transition: all .2s ease-in-out;
   -moz-transition: all .2s ease-in-out;
   -o-transition: all .2s ease-in-out;
+  padding: 30px 20px;
+  font-size: 20px;
 }
 .zoomed #banner {
   height: 50px;
@@ -132,6 +134,9 @@ ul {
 .zoomed #logo img {
   height: 30px;
 }
+.zoomed #nav ul li a {
+  padding: 15px;
+}
 /* Body Style */
 
 #main-wrapper {
@@ -141,9 +146,9 @@ ul {
   padding-top: 90px;
 }
 #main {
-  width: 1110px;
+  max-width: 1400px;
   margin: 0 auto;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 /* Footer Style */
 
@@ -196,94 +201,8 @@ ul {
 }
 /* Width based on Screen Width */
 
-@media screen and (min-width: 1850px) {
+@media screen and (max-width: 1480px) {
   #main, #header {
-    width: 1850px;
-  }
-}
-@media screen and (max-width: 1850px) and (min-width: 1480px) {
-  #main, #header {
-    width: 1480px;
-  }
-}
-@media screen and (max-width: 1480px) and (min-width: 1110px) {
-  #main, #header {
-    width: 1110px;
-  }
-}
-@media screen and (max-width: 1110px) and (min-width: 740px) {
-  #main, #header {
-    width: 740px;
-  }
-}
-@media screen and (min-width: 741px) {
-  #nav ul li a {
-    padding: 30px 20px;
-    font-size: 20px;
-  }
-  .zoomed #nav ul li a {
-    padding: 15px 25px;
-  }
-}
-@media screen and (max-width: 740px) {
-  #main {
-    width: 370px;
-  }
-  #header {
-    margin: 0 auto;
-    width: 350px;
-  }
-  #banner {
-    width: 180px;
-    height: 50px;
-    margin: auto;
-  }
-  #logo {
-    padding: 10px 0;
-  }
-  #logo img {
-    height: 32px;
-  }
-  #logo h1 {
-    left: 40px;
-    font-size: 30px;
-  }
-  #nav {
-    position: inherit;
-    right: 0px;
-    overflow: auto;
-    border-top: dotted 1px;
-  }
-  #nav ul {
-    padding: 0;
-  }
-  #nav ul li a {
-    padding: 5px 20px 5px 10px;
-    font-size: 20px;
-  }
-  #main-wrapper {
-    padding-top: 70px;
-    /* When nav toggle, 40 */
-  }
-  #rights-c:after {
-    content: "";
-    display: block;
-  }
-  .zoomed #nav {
-    height: 0;
-    border-top: hidden;
-  }
-  .zoomed #banner {
-    height: 40px;
-  }
-  .zoomed #logo {
-    padding: 8px 0;
-  }
-  .zoomed #logo h1 {
-    font-size: 24px;
-    left: 35px;
-  }
-  .zoomed #logo img {
-    height: 25px;
+    padding: 0 2.5%;
   }
 }

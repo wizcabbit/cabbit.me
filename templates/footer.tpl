@@ -17,9 +17,7 @@
     <script src="{$WEB_ROOT}/scripts/lib/imagesloaded.pkgd.js"></script>
     <script src="{$WEB_ROOT}/scripts/lib/jquery.masonry.min.js"></script>
 {else}
-    <script src="{$WEB_ROOT}/scripts/lib/jquery-1.11.1.min.js"></script>
-    <script src="{$WEB_ROOT}/scripts/lib/imagesloaded.pkgd.min.js"></script>
-    <script src="{$WEB_ROOT}/scripts/lib/jquery.masonry.min.js"></script>
+    <script src="{$WEB_ROOT}/scripts/common.js"></script>
 {/if}
     <!-- Main Script -->
     <script src="{$WEB_ROOT}/scripts/index.js"></script>

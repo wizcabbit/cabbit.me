@@ -2,6 +2,7 @@
 
 <div id="intro-wrapper">
   <div id="intro"><!-- BEGIN intro -->
+    <div id="intro-background"></div>
     <p>I am <span>wizcabbit</span>, a split Gemini interested in all unknown.</p>
     <p>Currently, I am a front-end engineer, <span>research</span> on efficient and simple solutions from design to implementation, and <span>lead</span> teammates work comfortably and smoothly.</p>
   </div><!-- END intro -->
@@ -13,7 +14,6 @@
       <a href="{$WEB_ROOT}/projects/13-napochi">
         <img src="{$WEB_ROOT}/images/proj_13_title.jpg">
         <h2>Napochi THISBoard</h2>
-        <h3>Creating healthier communities, enhancing best practices</h3>
       </a>
       <p>Doctors and nurses treat the appointment and medical history day by day, but their system looks like using Win 95 in 2012. Napochi focus in how to make best experience for doctors and nurses, to increase their efficiency and reduce errors. </p>
       <div class="proj-skills">

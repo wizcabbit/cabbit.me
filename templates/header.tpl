@@ -28,7 +28,7 @@
           <div id="banner">
             <div id="logo"><!-- BEGIN logo -->
               <a href="{$WEB_ROOT}">
-                <img src="{$WEB_ROOT}/images/logo_200.png" alt="WANG Zhi Yong">
+                <img src="{$WEB_ROOT}/images/logo_80.jpg" alt="WANG Zhi Yong">
                 <h1>wizcabbit</h1>
               </a>
             </div><!-- BEGIN logo -->
