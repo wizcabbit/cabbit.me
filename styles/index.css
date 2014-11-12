@@ -4,7 +4,6 @@
 }
 #intro {
   border-radius: 3px;
-  box-shadow: 0px 1px 4px 0px #ccc;
   padding: 8px 15px;
   position: relative;
 }
@@ -16,8 +15,6 @@
   background-repeat: no-repeat;
   top: 0;
   left: 0;
-  background-image: url('../images/intro_bg.jpg');
-  opacity: 0.1;
 }
 #intro p {
   font-size: 30px;
@@ -45,7 +42,6 @@
   margin: 0 1.78% 50px;
   float: left;
   background-color: white;
-  border-radius: 3px;
   box-shadow: 0px 1px 4px 0px #ccc;
   box-sizing: border-box;
   overflow: hidden;
@@ -54,8 +50,9 @@
   width: 60.8%;
 }
 .proj-overview {
-  width: 100% position: relative;
-  overflow: auto;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
 }
 .proj-overview a {
   text-decoration: none;
@@ -63,6 +60,7 @@
 .proj-overview img {
   width: 100%;
   max-width: 100%;
+  overflow: hidden;
 }
 .proj-overview h2 {
   margin: 5px 15px 5px 15px;
@@ -83,12 +81,51 @@
   color: #333;
   line-height: 19px;
 }
+.proj-overview .proj-header {
+  position: relative;
+  overflow: hidden;
+}
+.proj-overview .proj-header .overlay {
+  opacity: 0;
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: rgba(10, 10, 10, .7);
+  z-index: 100;
+  -webkit-transition: color .3s ease-in-out, opacity .4s ease-in-out;
+  -moz-transition: color .3s ease-in-out, opacity .4s ease-in-out;
+  transition: color .3s ease-in-out, opacity .4s ease-in-out;
+}
+.proj-overview .proj-header span {
+  opacity: .1;
+  display: block;
+  width: 100%;
+  padding: 0 15px 0 15px;
+  border-bottom: 2px solid #eb911c;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 18px;
+  box-sizing: border-box;
+  position: absolute;
+  top: -10%;
+  -webkit-transition: top .3s ease-in-out, opacity .3s ease-in-out;
+  -moz-transition: top .3s ease-in-out, opacity .3s ease-in-out;
+  transition: top .3s ease-in-out, opacity .3s ease-in-out;
+}
+.proj-overview .proj-header:hover .overlay {
+  opacity: 1;
+}
+.proj-overview .proj-header:hover span {
+  top: 50%;
+  opacity: 1;
+}
 .proj-skills {
   margin: 0 15px 15px;
 }
 .proj-skills a {
   display: inline-block;
-  font-weight: lighter;
   margin-top: 5px;
   margin-right: 5px;
   padding-bottom: 2px;
@@ -100,6 +137,10 @@
   line-height: 12px;
   font-size: 12px;
   cursor: pointer;
+}
+.top-radius {
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
 }
 @media screen and (max-width: 1150px) {
   .proj-thumb {

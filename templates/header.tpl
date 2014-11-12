@@ -16,10 +16,14 @@
 {/literal}
 {/if}
     <!-- Stylesheet -->
+{if $IS_DEBUG}
     <link rel="stylesheet" href="{$WEB_ROOT}/styles/common.css">
     <link rel="stylesheet" href="{$WEB_ROOT}/styles/index.css">
     <link rel="stylesheet" href="{$WEB_ROOT}/styles/project.css">
     <link rel="stylesheet" href="{$WEB_ROOT}/styles/static.css">
+{else}
+    <link rel="stylesheet" href="{$WEB_ROOT}/styles/all.min.css">
+{/if}
   </head>
   <body>
     <div id="container"><!-- BEGIN container -->

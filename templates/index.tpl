@@ -26,12 +26,17 @@
 
   <div class="proj-thumb">
     <div class="proj-overview">
+      <div class="proj-header">
+        <a class="overlay top-radius" href="{$WEB_ROOT}/projects/10-vheard">
+          <span>Read More</span>
+        </a>
+        <img class="top-radius" src="{$WEB_ROOT}/images/proj_10_title.jpg">
+      </div>
       <a href="{$WEB_ROOT}/projects/10-vheard">
-        <img src="{$WEB_ROOT}/images/proj_10_title.jpg">
         <h2>vHeard</h2>
-        <h3>Transfer vision to sound, help blind man to learn the world</h3>
+        <h3>Transfer vision to sound, help blind man to explore the world</h3>
       </a>
-      <p>Blind people has their own way to discover the world, hearing is the most powerful tool! We recognize the world's subject, color and other things, and transfer the vision to sound.</p>
+      <p>They are people with sensitive hearing. vHeard recognize the world, convert the vision to sound wave, to expand their vision.</p>
       <div class="proj-skills">
         <a>UX Design</a>
         <a>Computer Graphics</a>
