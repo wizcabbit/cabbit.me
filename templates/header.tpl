@@ -39,6 +39,7 @@
           </div>
           <div id="nav"><!-- BEGIN navigation -->
             <ul class="nav-links">
+              <li><a href="//blog.cabbit.me">Blog</a></li>
               <li><a id="projects" href="{$WEB_ROOT}">Portfilio</a></li>
               <li><a id="resume" href="{$WEB_ROOT}/resume">Resume</a></li>
             </ul>
