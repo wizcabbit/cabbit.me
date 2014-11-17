@@ -1,5 +1,7 @@
 {$PAGE_TITLE="Sohu NBA Channel @wizcabbit"}
 {$PAGE_KEYWORDS="Sohu,NBA,video,live"}
+{$NAV="projects"}
+{$PROJ="11"}
 
 {include file="header.tpl"}
 

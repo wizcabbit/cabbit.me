@@ -101,7 +101,7 @@ ul {
 }
 #nav {
   position: absolute;
-  right: 10px;
+  right: 0px;
   top: 0;
 }
 #nav ul {
@@ -111,10 +111,16 @@ ul {
 #nav ul li {
   float: left;
 }
+#nav ul li:hover {
+  background-color: #f4f6f7;
+}
+#nav ul li[active] {
+  background-color: #f4f6f7;
+}
 #nav ul li a {
   display: block;
   font-size: 20px;
-  padding: 30px 20px;
+  padding: 28px 20px 29px 20px;
   text-transform: uppercase;
   -moz-transition: all .2s ease-in-out;
   -o-transition: all .2s ease-in-out;
@@ -135,7 +141,7 @@ ul {
   height: 30px;
 }
 .zoomed #nav ul li a {
-  padding: 15px;
+  padding: 13px 15px 14px 15px;
 }
 /* Body Style */
 

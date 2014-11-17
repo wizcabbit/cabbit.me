@@ -1,5 +1,7 @@
 {$PAGE_TITLE="Napochi THISBoard @wizcabbit"}
 {$PAGE_KEYWORDS="Napochi,medical"}
+{$NAV="projects"}
+{$PROJ="13"}
 
 {include file="header.tpl"}
 

@@ -1,3 +1,5 @@
+{$NAV="projects"}
+
 {include file="header.tpl"}
 
 <div id="intro-wrapper">

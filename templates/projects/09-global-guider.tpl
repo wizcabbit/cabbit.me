@@ -1,5 +1,7 @@
 {$PAGE_TITLE="Global Guider @wizcabbit"}
 {$PAGE_KEYWORDS="Global Guider,Imagine Cup,2009,wearable device"}
+{$NAV="projects"}
+{$PROJ="09"}
 
 {include file="header.tpl"}
 

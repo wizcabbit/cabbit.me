@@ -8,6 +8,12 @@ body {
   background-color: transparent;
   box-shadow: initial;
 }
+#main-sidebar li:hover, #main-sidebar li[active] {
+  background-image: url('../images/proj_10_active.jpg');
+  background-repeat: repeat-x;
+  border-radius: 4px;
+  border-style: none;
+}
 #main-sidebar h4 {
   font-weight: normal;
 }
@@ -32,6 +38,9 @@ body {
 #proj-intro h4 {
   border: solid #FF9900;
   border-width: 0 0 2px 0;
+}
+#proj-attribute {
+  border-left: solid FF9900 1px;
 }
 #proj-attribute a {
   font-weight: normal;

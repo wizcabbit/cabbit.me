@@ -18,6 +18,12 @@
   display: block;
   padding: 20px;
 }
+#main-sidebar li:hover {
+  background-color: #e7eaf0;
+}
+#main-sidebar li[active] {
+  background-color: #e7eaf0;
+}
 #main-sidebar h4 {
   font-weight: normal;
   margin: 0;
@@ -88,7 +94,7 @@
 
 #proj-attribute {
   border-color: #ddd;
-  border-left: solid 1px;
+  border-left: dotted 1px;
   float: right;
   padding-left: 15px;
   width: 150px;

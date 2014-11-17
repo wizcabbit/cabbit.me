@@ -1,5 +1,7 @@
 {$PAGE_TITLE="vHeard @wizcabbit"}
 {$PAGE_KEYWORDS="vHeard,Imagine Cup,sight to wave"}
+{$NAV="projects"}
+{$PROJ="10"}
 
 {include file="header.tpl"}
 

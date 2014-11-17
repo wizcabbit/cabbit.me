@@ -1,3 +1,5 @@
+{$NAV="projects"}
+
 {include file="header.tpl"}
 
 {include file="projects/proj-sidebar.tpl"}

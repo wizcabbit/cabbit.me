@@ -1,5 +1,7 @@
 {$PAGE_TITLE="IEMS @wizcabbit"}
 {$PAGE_KEYWORDS="IEMS,enviroment,Imagine Cup,2008"}
+{$NAV="projects"}
+{$PROJ="08"}
 
 {include file="header.tpl"}
 

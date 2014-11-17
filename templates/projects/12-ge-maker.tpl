@@ -1,5 +1,7 @@
 {$PAGE_TITLE="GE Centricity RIS-IC @wizcabbit"}
 {$PAGE_KEYWORDS="GE,RIS,template,medical,work flow"}
+{$NAV="projects"}
+{$PROJ="12"}
 
 {include file="header.tpl"}
 

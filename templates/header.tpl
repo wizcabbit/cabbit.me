@@ -40,8 +40,8 @@
           <div id="nav"><!-- BEGIN navigation -->
             <ul class="nav-links">
               <li><a href="//blog.cabbit.me">Blog</a></li>
-              <li><a id="projects" href="{$WEB_ROOT}">Portfilio</a></li>
-              <li><a id="resume" href="{$WEB_ROOT}/resume">Resume</a></li>
+              <li {if ($NAV|default:'')=='projects'}active{/if}><a id="projects" href="{$WEB_ROOT}">Portfilio</a></li>
+              <li {if ($NAV|default:'')=='resume'}active{/if}><a id="resume" href="{$WEB_ROOT}/resume">Resume</a></li>
             </ul>
           </div><!-- BEGIN navigation -->
         </div><!-- END header -->
