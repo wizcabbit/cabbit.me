@@ -9,40 +9,40 @@
   width: 200px;
 }
 #main-sidebar ul {
+  list-style: none;
   margin: 0;
   padding: 0;
-  list-style: none;
 }
 #main-sidebar a {
-  padding: 20px;
   border: none;
   display: block;
+  padding: 20px;
 }
 #main-sidebar h4 {
-  margin: 0;
   font-weight: normal;
+  margin: 0;
   margin-bottom: 5px;
 }
 #main-sidebar h5 {
-  margin: 0;
   font-weight: inherit;
+  margin: 0;
 }
 /* Project detail */
 
 #proj-detail {
   margin-left: 220px;
-  padding: 20px;
   overflow: auto;
+  padding: 20px;
 }
 #proj-detail a {
   border-bottom: 1px dotted #384556;
 }
 #proj-detail ul {
-  list-style: initial;
   font-size: 14px;
-  padding-left: 25px;
-  padding-bottom: 10px;
   line-height: 20px;
+  list-style: initial;
+  padding-bottom: 10px;
+  padding-left: 25px;
 }
 #proj-detail li {
   margin: 3px 0;
@@ -52,27 +52,27 @@
 }
 #proj-intro {
   margin-right: 170px;
-  padding-right: 30px;
   overflow: hidden;
+  padding-right: 30px;
 }
 #proj-intro h2 {
-  margin: 0 0 15px 0;
   color: #333;
   font-weight: 300;
+  margin: 0 0 15px 0;
 }
 #proj-intro span {
-  display: block;
-  border-style: none;
-  border-radius: 4px;
   background-color: #e7eaf0;
-  padding: 7px 15px;
-  margin: 12px 0;
+  border-radius: 4px;
+  border-style: none;
+  display: block;
   line-height: 20px;
+  margin: 12px 0;
+  padding: 7px 15px;
 }
 #proj-intro h4 {
-  font-size: 24px;
   border: solid #ddd;
   border-width: 0 0 1px 0;
+  font-size: 24px;
   font-weight: normal;
   margin: 15px 0 10px 0;
   padding: 0 0 0.3em 0;
@@ -81,28 +81,28 @@
   margin: 6px 0;
 }
 #proj-intro img {
-  width: 100%;
   max-width: 100%;
+  width: 100%;
 }
 /* Project attributes, right sidebar */
 
 #proj-attribute {
-  float: right;
-  width: 150px;
-  border-left: solid 1px;
   border-color: #ddd;
+  border-left: solid 1px;
+  float: right;
   padding-left: 15px;
+  width: 150px;
 }
 #proj-attribute h5 {
-  font-size: 14px;
   color: #505a64;
-  margin: .7em 0 .3em 0;
+  font-size: 14px;
   font-weight: 400;
+  margin: .7em 0 .3em 0;
 }
 #proj-attribute span {
   display: block;
-  margin: 6px 0;
   line-height: 20px;
+  margin: 6px 0;
 }
 /* Project 09 Global Guider */
 
@@ -114,25 +114,25 @@ img.proj-09-solution {
 }
 #proj-09-theory-text {
   float: left;
-  width: 320px;
   max-width: 100%;
   overflow: auto;
+  width: 320px;
 }
 #proj-09-theory-img {
   float: right;
-  width: 310px !important;
   margin: 10px 0;
+  width: 310px !important;
 }
 /* Base on device width */
 
 @media screen and (min-width: 1110px) {
   img.proj-09-solution {
-    width: 250px !important;
     height: 240px;
+    width: 250px !important;
   }
   #proj {
-    width: 1100px;
     margin: 0 auto;
+    width: 1100px;
   }
 }
 @media screen and (max-width: 1110px) and (min-width: 740px) {

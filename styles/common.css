@@ -1,9 +1,9 @@
 body {
-  font-family: 'Roboto', Helvetica, Arial, sans-serif;
-  margin: 0;
   background: url('../images/bg.gif') repeat;
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
   font-weight: 300;
   line-height: 1.15;
+  margin: 0;
 }
 a {
   color: #384556;
@@ -37,22 +37,22 @@ ul {
   margin: 0;
 }
 #container {
-  width: 100%;
   margin: 0, auto;
+  width: 100%;
 }
 /* Header Style */
 
 #header-wrapper {
-  width: 100%;
-  padding: 0px;
-  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
   background-color: white;
+  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+  padding: 0px;
   position: fixed;
+  width: 100%;
   z-index: 400;
 }
 #header {
-  max-width: 1400px;
   margin: 0 auto;
+  max-width: 1400px;
   position: relative;
 }
 #header a {
@@ -61,48 +61,48 @@ ul {
   text-shadow: #fff 1px 1px 1px;
 }
 #banner {
-  width: 335px;
   height: 80px;
   padding: 0;
-  transition: all .2s ease-in-out;
-  -webkit-transition: all .2s ease-in-out;
   -moz-transition: all .2s ease-in-out;
   -o-transition: all .2s ease-in-out;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  width: 335px;
 }
 #logo {
   padding: 20px 0;
-  transition: all .2s ease-in-out;
-  -webkit-transition: all .2s ease-in-out;
   -moz-transition: all .2s ease-in-out;
   -o-transition: all .2s ease-in-out;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
 }
 #logo a {
   display: block;
   position: relative;
 }
 #logo img {
-  height: 40px;
   display: block;
-  transition: all .2s ease-in-out;
-  -webkit-transition: all .2s ease-in-out;
+  height: 40px;
   -moz-transition: all .2s ease-in-out;
   -o-transition: all .2s ease-in-out;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
 }
 #logo h1 {
-  position: absolute;
-  top: 0;
+  font-weight: 200;
   left: 55px;
   margin: 0;
-  font-weight: 200;
-  transition: all .2s ease-in-out;
-  -webkit-transition: all .2s ease-in-out;
+  position: absolute;
+  top: 0;
   -moz-transition: all .2s ease-in-out;
   -o-transition: all .2s ease-in-out;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
 }
 #nav {
   position: absolute;
-  top: 0;
   right: 10px;
+  top: 0;
 }
 #nav ul {
   list-style: none;
@@ -113,13 +113,13 @@ ul {
 }
 #nav ul li a {
   display: block;
+  font-size: 20px;
+  padding: 30px 20px;
   text-transform: uppercase;
-  transition: all .2s ease-in-out;
-  -webkit-transition: all .2s ease-in-out;
   -moz-transition: all .2s ease-in-out;
   -o-transition: all .2s ease-in-out;
-  padding: 30px 20px;
-  font-size: 20px;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
 }
 .zoomed #banner {
   height: 50px;
@@ -140,15 +140,15 @@ ul {
 /* Body Style */
 
 #main-wrapper {
-  width: 100%;
-  position: relative;
-  z-index: 60;
   padding-top: 90px;
+  position: relative;
+  width: 100%;
+  z-index: 60;
 }
 #main {
-  max-width: 1400px;
   margin: 0 auto;
   margin-top: 10px;
+  max-width: 1400px;
   overflow: hidden;
 }
 /* Footer Style */
@@ -159,8 +159,8 @@ ul {
   padding: 0 15px;
 }
 #rights {
-  text-align: center;
   margin: 25px 0 10px 0;
+  text-align: center;
 }
 #rights-c:after {
   content: " | ";

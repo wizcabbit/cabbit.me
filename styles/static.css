@@ -1,20 +1,20 @@
 .static {
   background-color: #fff;
   box-shadow: 0px 1px 4px 0px #ccc;
-  padding: 0 20px 40px 20px;
   overflow: auto;
+  padding: 0 20px 40px 20px;
 }
 .static a {
   border-bottom: 1px dotted #384556;
 }
 #about div {
-  width: 650px;
   float: left;
+  width: 650px;
 }
 #about img {
-  width: 290px;
-  margin-top: 80px;
   float: right;
+  margin-top: 80px;
+  width: 290px;
 }
 #resume h2 {
   color: #333;
@@ -23,31 +23,31 @@
   margin: 16px 0;
 }
 #resume h4 {
-  font-size: 16px;
   border: solid #ddd;
   border-width: 0 0 1px 0;
+  font-size: 16px;
   font-weight: normal;
   margin: 15px 0 10px 0;
   padding: 0 0 0.3em 0;
-  text-transform: uppercase;
   padding-bottom: .5em;
+  text-transform: uppercase;
 }
 #resume h5 {
   font-size: 14px;
-  margin: .5em 0;
   font-weight: normal;
+  margin: .5em 0;
 }
 #resume-skill {
-  float: right;
-  width: 200px;
-  border-left: solid 1px;
   border-color: #ddd;
+  border-left: solid 1px;
+  float: right;
   padding-left: 15px;
+  width: 200px;
 }
 #resume-skill span {
   display: block;
-  margin: 0 0 0 8px;
   line-height: 20px;
+  margin: 0 0 0 8px;
 }
 #resume-download {
   height: 50px;
@@ -56,9 +56,9 @@
   overflow: auto;
 }
 .resume-case {
-  position: relative;
   margin-bottom: 12px;
   padding-left: 1em;
+  position: relative;
 }
 .resume-case .company {
   font-weight: normal;
@@ -70,10 +70,10 @@
   margin: 4px 0;
 }
 .resume-case .description {
+  font-size: 13px;
+  list-style: disc inside;
   margin: 5px 0 5px 5px;
   padding-left: 0;
-  list-style: disc inside;
-  font-size: 13px;
 }
 .resume-case .description li {
   line-height: 20px;
@@ -83,8 +83,8 @@
 }
 @media screen and (min-width: 1110px) {
   .static {
-    width: 960px;
     margin: 0 auto;
+    width: 960px;
   }
 }
 @media screen and (max-width: 1110px) {
@@ -99,8 +99,8 @@
   }
   .resume-case .date {
     position: absolute;
-    top: 0;
     right: 0;
+    top: 0;
   }
 }
 @media screen and (max-width: 740px) {

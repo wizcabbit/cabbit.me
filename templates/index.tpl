@@ -11,8 +11,13 @@
 
   <div class="proj-thumb">
     <div class="proj-overview">
+      <div class="proj-header">
+        <a class="overlay top-radius" href="{$WEB_ROOT}/projects/13-napochi">
+          <span>Read More</span>
+        </a>
+        <img class="top-radius" src="{$WEB_ROOT}/images/proj_13_title.jpg">
+      </div>
       <a href="{$WEB_ROOT}/projects/13-napochi">
-        <img src="{$WEB_ROOT}/images/proj_13_title.jpg">
         <h2>Napochi THISBoard</h2>
       </a>
       <p>Doctors and nurses treat the appointment and medical history day by day, but their system looks like using Win 95 in 2012. Napochi focus in how to make best experience for doctors and nurses, to increase their efficiency and reduce errors. </p>
@@ -47,8 +52,13 @@
 
   <div class="proj-thumb">
     <div class="proj-overview">
+      <div class="proj-header">
+        <a class="overlay top-radius" href="{$WEB_ROOT}/projects/09-global-guider">
+          <span>Read More</span>
+        </a>
+        <img class="top-radius" src="{$WEB_ROOT}/images/proj_09_title.jpg" alt="Global Guider">
+      </div>
       <a href="{$WEB_ROOT}/projects/09-global-guider">
-        <img src="{$WEB_ROOT}/images/proj_09_title.jpg" alt="Global Guider">
         <h2>Global Guider</h2>
         <h3>Navigator prototype for GLASSES in 2008</h3>
       </a>
@@ -63,8 +73,13 @@
 
   <div class="proj-thumb">
     <div class="proj-overview">
+      <div class="proj-header">
+        <a class="overlay top-radius" href="{$WEB_ROOT}/projects/08-iems">
+          <span>Read More</span>
+        </a>
+        <img class="top-radius" src="{$WEB_ROOT}/images/proj_08_title.jpg">
+      </div>
       <a href="{$WEB_ROOT}/projects/08-iems">
-        <img src="{$WEB_ROOT}/images/proj_08_title.jpg">
         <h2>IEMS - GIS</h2>
         <h3>UX Standard for GIS</h3>
       </a>
@@ -79,8 +94,13 @@
 
   <div class="proj-thumb">
     <div class="proj-overview">
+      <div class="proj-header">
+        <a class="overlay top-radius" href="{$WEB_ROOT}/projects/12-ge-maker">
+          <span>Read More</span>
+        </a>
+        <img class="top-radius" src="{$WEB_ROOT}/images/proj_12_title.jpg">
+      </div>
       <a href="{$WEB_ROOT}/projects/12-ge-maker">
-        <img src="{$WEB_ROOT}/images/proj_12_title.jpg">
         <h2>GE Centricity RIS-IC</h2>
         <h3>Designer and template maker for medical work flow</h3>
       </a>
@@ -95,8 +115,13 @@
 
   <div class="proj-thumb">
     <div class="proj-overview">
+      <div class="proj-header">
+        <a class="overlay top-radius" href="{$WEB_ROOT}/projects/11-sohu-nba">
+          <span>Read More</span>
+        </a>
+        <img class="top-radius" src="{$WEB_ROOT}/images/proj_11_title.jpg">
+      </div>
       <a href="{$WEB_ROOT}/projects/11-sohu-nba">
-        <img src="{$WEB_ROOT}/images/proj_11_title.jpg">
         <h2>Sohu's NBA Channel</h2>
         <h3>Make immersive experience for NBA Live, more interesting</h3>
       </a>
