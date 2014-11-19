@@ -1,6 +1,11 @@
 module.exports = function(grunt) {
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
+    clean: {
+      build: [
+        'build/*'
+      ]
+    },
     uglify: {
       js: {
         files: {
@@ -25,13 +30,35 @@ module.exports = function(grunt) {
             'scripts/lib/video.js/video-js.css'
           ]
         }
+      },
+      vheard: {
+        files: {
+          'build/styles/10-vheard.css': 'styles/10-vheard.css'
+        }
+      }
+    },
+    copy: {
+      main: {
+        expand: true,
+        src: [
+          'smarty/**',
+          'images/**',
+          'fonts/**',
+          'templates/**',
+          'media/**',
+          '.htaccess',
+          'index.php',
+          'favicon.ico'
+        ],
+        dest: 'build/'
       }
     }
   });
 
+  grunt.loadNpmTasks('grunt-contrib-clean');
+  grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks('grunt-contrib-uglify');
 
-  grunt.registerTask('default', ['uglify', 'cssmin']);
-
+  grunt.registerTask('default', ['clean', 'uglify', 'cssmin', 'copy']);
 };

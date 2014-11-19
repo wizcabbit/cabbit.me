@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="{$WEB_ROOT}/styles/static.css">
     <link rel="stylesheet" href="{$WEB_ROOT}/styles/video-js.css">
 {else}
-    <link rel="stylesheet" href="{$WEB_ROOT}/build/all.min.css">
+    <link rel="stylesheet" href="{$WEB_ROOT}/all.min.css">
 {/if}
   </head>
   <body>

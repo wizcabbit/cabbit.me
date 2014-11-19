@@ -18,7 +18,7 @@
     <script src="{$WEB_ROOT}/scripts/lib/jquery.masonry.min.js"></script>
     <script src="{$WEB_ROOT}/scripts/lib/video.js/video.dev.js"></script>
 {else}
-    <script src="{$WEB_ROOT}/build/all.min.js"></script>
+    <script src="{$WEB_ROOT}/all.min.js"></script>
 {/if}
     <script>
     (function() {
