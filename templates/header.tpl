@@ -21,8 +21,9 @@
     <link rel="stylesheet" href="{$WEB_ROOT}/styles/index.css">
     <link rel="stylesheet" href="{$WEB_ROOT}/styles/project.css">
     <link rel="stylesheet" href="{$WEB_ROOT}/styles/static.css">
+    <link rel="stylesheet" href="{$WEB_ROOT}/styles/video-js.css">
 {else}
-    <link rel="stylesheet" href="{$WEB_ROOT}/styles/all.min.css">
+    <link rel="stylesheet" href="{$WEB_ROOT}/build/all.min.css">
 {/if}
   </head>
   <body>

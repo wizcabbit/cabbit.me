@@ -3,7 +3,7 @@
       <div id="footer-wrapper">
         <div id="footer">
           <div id="rights">
-            <span id="rights-c">(C) 2006-2014 WANG Zhi Yong's Portfolio</span><span>Theme from <a href="//haozeng.me/">Hao</a> & Coded by <a href="#">wizcabbit</a></span>
+            <span id="rights-c">(C) 2006-2014 WANG Zhi Yong's Portfolio</span> Coded by <a href="#">wizcabbit</a></span>
           </div>
           <div id="backtop">
             <a href="#">Back to Top</a>
@@ -16,10 +16,15 @@
     <script src="{$WEB_ROOT}/scripts/lib/jquery-1.11.1.js"></script>
     <script src="{$WEB_ROOT}/scripts/lib/imagesloaded.pkgd.js"></script>
     <script src="{$WEB_ROOT}/scripts/lib/jquery.masonry.min.js"></script>
+    <script src="{$WEB_ROOT}/scripts/lib/video.js/video.dev.js"></script>
 {else}
-    <script src="{$WEB_ROOT}/scripts/all.js"></script>
+    <script src="{$WEB_ROOT}/build/all.min.js"></script>
 {/if}
-    <!-- Main Script -->
-    <script src="{$WEB_ROOT}/scripts/index.js"></script>
+    <script>
+    (function() {
+      // Initialise video.js's component
+      videojs.options.flash.swf = "{$WEB_ROOT}/scripts/lib/video.js/video-js.swf";
+    })();
+    </script>
   </body>
 </html>

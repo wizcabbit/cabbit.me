@@ -9,36 +9,46 @@
     <div id="resume-download"></div>
     <h4>Skills</h4>
     <h5>Programming</h5>
+    <span>C#</span>
     <span>HTML</span>
     <span>CSS</span>
     <span>JavaScript</span>
-    <span>C#</span>
     <span>PHP</span>
     <span>Python</span>
-    <h5>Front-end</h5>
+    <h5>Front End</h5>
     <span>jQuery</span>
     <span>AngularJS</span>
     <span>Require.JS</span>
     <span>Underscore</span>
     <span>Bootstrap</span>
     <span>Grunt</span>
-    <span>Gulp</span>
-    <h5>Web Site</h5>
+    <span>XAML</span>
+    <span>Silverlight</span>
+    <h5>Web</h5>
     <span>Smarty</span>
     <span>ASP.NET Web Form</span>
     <span>ASP.NET MVC</span>
     <h5>Application</h5>
     <span>.NET Framewrok</span>
-    <span>WPF</span>
-    <h5>Server-side</h5>
+    <span>Windows Form</span>
+    <span>WPF Application</span>
+    <h5>Server</h5>
     <span>Node.js</span>
     <span>Apache</span>
+    <span>Blade Build</span>
+    <span>Aliyun Cloud</span>
+    <span>Windows Azure</span>
+    <h5>Data</h5>
     <span>SQL Server</span>
-    <span>Typhoon-Blade</span>
+    <span>ADO.NET</span>
+    <span>Linq</span>
+    <span>NHibernate</span>
+    <span>JSON</span>
+    <span>XML</span>
     <h5>Other Keywords</h5>
     <span>MVVM</span>
-    <span>Test Driven</span>
     <span>Scrum</span>
+    <span>Test Driven</span>
   </div>
   <div id="resume-content">
     <h2>RESUME</h2>
@@ -68,11 +78,11 @@
     <h4>Professional Experience</h4>
     <div class="resume-case">
       <span class="date">07/2014 - Present</span>
-      <span class="company">Wanda Group</span>
+      <span class="company">Wanda Ecommerce</span>
       <span class="title">Senior Front-end Engineer</span>
       <ul class="description">
         <li>Designed front-end architecture for administration website, based on angular.js to build flexible management interface</li>
-        <li>Implements of O2O customer marketing activities, for <a href="//www.wanhui.cn/">Web</a>, WAP and APP side.</li>
+        <li>Implements of O2O customer marketing activities, for <a href="//www.wanhui.cn/">Web</a>, WAP and APP side</li>
       </ul>
     </div>
     <div class="resume-case">
@@ -96,7 +106,7 @@
     <div class="resume-case">
       <span class="date">09/2011 - 03/2012</span>
       <span class="company">Beijing Certificate Authorization - <a href="//www.bjca.org.cn/">Website</a></span>
-      <span class="title">UI Security Intern</span>
+      <span class="title">User Security Engineer</span>
       <ul class="description">
         <li>Safety input solution, transfer all network flow, encrypt with OpenSSH. Deliver to Bank of China, Bank of Beijing and others</li>
       </ul>
@@ -115,11 +125,11 @@
       <span class="title">Architecture, Engineer, Intern</span>
       <ul class="description">
         <li>First batch of employees in this startup company</li>
-        <li><a href="{$WEB_ROOT}/projects/12-ge-maker">GE Centricity RIS-IC</a>, medical work flow system. Designed MVVM architecture to implement the flexible requirement</li>
-        <li>Designed and implemented <a href="{$WEB_ROOT}/projects/13-napochi">Napochi THISBoard</a> user interface. Designed plug-in architecture</li>
-        <li>Implemented <a href="{$WEB_ROOT}/projects/11-sohu-nba">Sohu's NBA</a> channel, using HTML5 and CSS3 to build Live show player</li>
-        <li>Implemented and maintained Microsoft Student Center in 2007 - 2008, using automotive script to build statistic reports</li>
-        <li>Implemented Microsoft's mixFactory website, presented in the Launch Show of IE9. The earliest HTML5 video site in China</li>
+        <li><a href="{$WEB_ROOT}/projects/12-ge-maker">GE Centricity RIS-IC</a>, medical work flow system. Designed MVVM architecture to implement the flexible requirement. This project got GE's best supplier</li>
+        <li>Designed and implemented <a href="{$WEB_ROOT}/projects/13-napochi">Napochi THISBoard</a> user interface. Designed plug-in architecture to adapt different data sources</li>
+        <li>Implemented <a href="{$WEB_ROOT}/projects/11-sohu-nba">Sohu's NBA</a> channel, using HTML5 and CSS3 to build NBA Live show player, present real-time data statistics and game analytics</li>
+        <li>Implemented and maintained Microsoft University Center in 2007 - 2008, using automotive script to build statistic reports, organized two annual technology activities. The user of MSU Center raises from XXX to XXX in two years</li>
+        <li>Implemented Microsoft's mixFactory website, presented in the Microsoft IE9 Launch Show. The earliest HTML5 video site in China, implemented video player with HTML 5 and Silverlight</li>
       </ul>
     </div>
   </div>

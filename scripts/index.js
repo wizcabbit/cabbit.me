@@ -1,4 +1,5 @@
 (function() {
+  // Initialise Masonry
   var $container = $("#proj-wrapper");
   imagesLoaded(container, function() {
     $container.masonry({
@@ -9,14 +10,16 @@
     $container.masonry({
       itemSelector: ".proj-thumb",
     });
-  })
+  });
 })();
 
-$(document).on("scroll", function() {
-  topOffset = $(this).scrollTop();
-  if (topOffset > 20) {
-    $("#header").addClass("zoomed");
-  } else {
-    $("#header").removeClass("zoomed");
-  }
-});
+(function() {
+  $(document).on("scroll", function() {
+    topOffset = $(this).scrollTop();
+    if (topOffset > 20) {
+      $("#header").addClass("zoomed");
+    } else {
+      $("#header").removeClass("zoomed");
+    }
+  });
+})();
