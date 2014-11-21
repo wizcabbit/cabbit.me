@@ -17,14 +17,9 @@
     <script src="{$WEB_ROOT}/scripts/lib/imagesloaded.pkgd.js"></script>
     <script src="{$WEB_ROOT}/scripts/lib/jquery.masonry.min.js"></script>
     <script src="{$WEB_ROOT}/scripts/lib/video.js/video.dev.js"></script>
+    <script src="{$WEB_ROOT}/scripts/index.js"></script>
 {else}
     <script src="{$WEB_ROOT}/all.min.js"></script>
 {/if}
-    <script>
-    (function() {
-      // Initialise video.js's component
-      videojs.options.flash.swf = "{$WEB_ROOT}/scripts/lib/video.js/video-js.swf";
-    })();
-    </script>
   </body>
 </html>

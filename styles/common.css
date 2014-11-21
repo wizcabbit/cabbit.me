@@ -127,22 +127,6 @@ ul {
   -webkit-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
 }
-.zoomed #banner {
-  height: 50px;
-}
-.zoomed #logo {
-  padding: 10px 0;
-}
-.zoomed #logo h1 {
-  font-size: 28px;
-  left: 45px;
-}
-.zoomed #logo img {
-  height: 30px;
-}
-.zoomed #nav ul li a {
-  padding: 13px 15px 14px 15px;
-}
 /* Body Style */
 
 #main-wrapper {
@@ -211,5 +195,80 @@ ul {
 @media screen and (max-width: 1480px) {
   #main, #header {
     padding: 0 2.5%;
+  }
+}
+@media screen and (max-width: 600px) {
+  #banner {
+    height: 50px;
+  }
+  #logo {
+    padding: 10px 0;
+  }
+  #logo h1 {
+    font-size: 28px;
+    left: 45px;
+  }
+  #logo img {
+    height: 30px;
+  }
+  #nav ul li a {
+    padding: 13px 15px 14px 15px;
+  }
+}
+@media screen and (min-width: 500px) {
+  .zoomed #banner {
+    height: 50px;
+  }
+  .zoomed #logo {
+    padding: 10px 0;
+  }
+  .zoomed #logo h1 {
+    font-size: 28px;
+    left: 45px;
+  }
+  .zoomed #logo img {
+    height: 30px;
+  }
+  .zoomed #nav ul li a {
+    padding: 13px 15px 14px 15px;
+  }
+}
+@media screen and (max-width: 500px) {
+  #header-wrapper {
+    position: initial;
+  }
+  #main-wrapper {
+    padding-top: 10px;
+  }
+  #header {
+    padding: 0;
+  }
+  #banner {
+    width: 100%;
+  }
+  #logo a {
+    text-align: center;
+  }
+  #logo img {
+    display: inline-block;
+  }
+  #logo h1 {
+    position: initial;
+    display: inline-block;
+  }
+  #nav {
+    position: initial;
+  }
+  #nav ul {
+    padding-left: 0;
+    overflow: auto;
+  }
+  #nav ul li {
+    float: left;
+    width: 33%;
+    text-align: center;
+  }
+  #nav ul li a {
+    padding: 5px 0 5px 0;
   }
 }

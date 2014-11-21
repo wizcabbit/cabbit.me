@@ -1,0 +1,10 @@
+{
+  "name": "cabbit.me",
+  "version": "0.1.0",
+  "homepage": "https://github.com/wizcabbit/cabbit.me",
+  "authors": [
+    "Wzy <wzywangzhiyong@gmail.com>"
+  ],
+  "description": "cabbit.me",
+  "license": "MIT"
+}
