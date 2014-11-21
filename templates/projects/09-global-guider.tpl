@@ -44,7 +44,7 @@
   <div id="proj-intro">
     <h2>Global Guider</h2>
     <p>In 2012, Goggle announced their best wearable device - Goggle Glass, but in 2009, our team in Beijing University of Technology had shown our navigation prototype for Glass like devices, named Global Guider.</p>
-    <span>We have a dream, show us everything WHAT we looks, WHERE we should go.</span>
+    <span class="proj-highlight">We have a dream, show us everything WHAT we looks, WHERE we should go.</span>
     <img src="{$WEB_ROOT}/images/proj_09_main.jpg" alt="Global Guider main frame">
 
     <h4>Background</h4>

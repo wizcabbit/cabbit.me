@@ -23,3 +23,10 @@
     }
   });
 })();
+
+(function() {
+  // Initialise video.js's component
+  $(document).ready(function() {
+    videojs.options.flash.swf = "video.js/video-js.swf";
+  });
+})();

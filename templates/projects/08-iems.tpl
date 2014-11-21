@@ -35,9 +35,9 @@
     <h2>IEMS - Environment</h2>
     <p>IEMS, means Integrated Environment Monitoring System.</p>
     <p>In 2008, we planed to join Microsoft's Imagine Cup, UI/UX topic. Because of the other project development, we have to use kinds of GIS (geography information system). We found the GIS's user interface are totally nightmare. The terminal, console and panel divided into windows, it is hard to tell users that is the modern user interface in 2008. So we decide to build a new standard for next generation GIS.</p>
-    <span>We build this application in .NET platform using WPF, I hope one day I have time to transfer it into web application.</span>
+    <span class="proj-highlight">We build this application in .NET platform using WPF, I hope one day I have time to transfer it into web application.</span>
     <img src="{$WEB_ROOT}/images/proj_08_login.jpg" alt="IEMS Login">
-    <span>We used 3D programming in WPF to implement the modern user interface, the dashboard looks like from technology film.</span>
+    <span class="proj-highlight">We used 3D programming in WPF to implement the modern user interface, the dashboard looks like from technology film.</span>
     <img src="{$WEB_ROOT}/images/proj_08_detail.jpg" alt="IEMS Detail">
     <h4>Architecture & Technology</h4>
     <p>Today we use MVVM pattern in many projects, but in 2008, it is first time I heard something like "View Model". I designed the MVVM structure to help designer modify our prototype quickly. After that, I love MVVM so much.</p>

@@ -34,7 +34,7 @@
   <div id="proj-intro">
     <h2>Sohu's NBA Channel</h2>
     <p>Watching TV, watching NBA game, but just listening the boring narrate from TV? Sohu Sports (one of the largest sports site in China) wants make the NBA Live show become more attractive.</p>
-    <span>Luckly, at that time jQuery and HTML 5 becomes more and more popular, we designed and implement a very attractive NBA living player.</span>
+    <span class="proj-highlight">Luckly, at that time jQuery and HTML 5 becomes more and more popular, we designed and implement a very attractive NBA living player.</span>
     <img src="{$WEB_ROOT}/images/proj_11_main.jpg" alt="Sohu NBA main frame">
 
     <h4>Live Events</h4>

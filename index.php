@@ -6,6 +6,7 @@
 $WEB_PATH = dirname(__FILE__);
 
 $WEB_ROOT = '//localhost/test';
+$CDN_ROOT = '//cabbit-me.qiniudn.com';
 $IS_DEBUG = true;
 
 // Initialize smary compnent
@@ -24,6 +25,7 @@ $smarty->config_dir = 'smarty/config/';
 
 // Initialize root path
 $smarty->assign('WEB_ROOT', $WEB_ROOT);
+$smarty->assign('CDN_ROOT', $CDN_ROOT);
 $smarty->assign('IS_DEBUG', $IS_DEBUG);
 
 // Route all project pages to unique template

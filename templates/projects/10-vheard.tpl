@@ -46,7 +46,7 @@
       <p>We want to help the people, the people who can not see, the people who lost their vision.</p>
       <p>An old artist without any sight told me that, the heard and touch are very sensitive for them. Their ears are their eyes, they explore the world using heard. That's why we implement vHeard.</p>
       <p>vHeard, transfer the vision into sound wave, giving another way to help people explore our world.</p>
-      <span>They are normal people like us, but very good at hearing.</span>
+      <span class="proj-highlight">They are normal people like us, but very good at hearing.</span>
       <img src="{$WEB_ROOT}/images/proj_10_login.jpg" alt="vHeard">
       <h4>Features</h4>
       <p>vHeard is an total solution for users, including features like:</p>

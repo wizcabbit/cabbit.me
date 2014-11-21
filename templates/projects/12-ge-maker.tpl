@@ -32,7 +32,7 @@
   <div id="proj-intro">
     <h2>Centricity RIS-IC</h2>
     <p>This product is a web-based radiology information system designed for evolving clinical and business needs through an enterprise-wide and patient-centric view of workflows.</p>
-    <span>There are thousands kinds of medical works flow and templates in hospital, people needs a mordern way to use it, like using theme of their blog.</span>
+    <span class="proj-highlight">There are thousands kinds of medical works flow and templates in hospital, people needs a mordern way to use it, like using theme of their blog.</span>
 
     <h4>Paperless Workflow</h4>
     <img src="{$WEB_ROOT}/images/proj_12_struct.jpg" alt="GE Maker">
