@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>{$PAGE_TITLE|default:'Portfolio @wizcabbit'}</title>
     <meta charset="utf-8">
