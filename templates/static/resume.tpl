@@ -9,49 +9,53 @@
     <div id="resume-download"></div>
     <h4>Skills</h4>
     <h5>Programming</h5>
-    <span>C#</span>
-    <span>HTML</span>
-    <span>CSS</span>
-    <span>JavaScript</span>
-    <span>PHP</span>
-    <span>Python</span>
+    <span>C#<level>■■■</level></span>
+    <span>JavaScript<level>■■■</level></span>
+    <span>Python<level>■■<i>■</i></level></span>
+    <span>C++<level>■<i>■■</i></level></span>
+    <span>PHP<level>■<i>■■</i></level></span>
     <h5>Front End</h5>
-    <span>jQuery</span>
-    <span>AngularJS</span>
-    <span>Require.JS</span>
-    <span>Underscore</span>
-    <span>Bootstrap</span>
-    <span>Grunt</span>
-    <span>XAML</span>
-    <span>Silverlight</span>
+    <span>HTML<level>■■■</level></span>
+    <span>CSS<level>■■■</level></span>
+    <span>jQuery<level>■■■</level></span>
+    <span>F.I.S<level>■■<i>■</i></level></span>
+    <span>AngularJS<level>■■<i>■</i></level></span>
+    <span>Require.JS<level>■■<i>■</i></level></span>
+    <span>Underscore<level>■■<i>■</i></level></span>
+    <span>Bootstrap<level>■■<i>■</i></level></span>
+    <span>Grunt<level>■■■</level></span>
+    <span>XAML<level>■■■</level></span>
+    <span>Silverlight<level>■<i>■■</i></level></span>
     <h5>Web</h5>
-    <span>Smarty</span>
-    <span>ASP.NET Web Form</span>
-    <span>ASP.NET MVC</span>
+    <span>Smarty<level>■■<i>■</i></level></span>
+    <span>Jekyll<level>■■■</level></span>
+    <span>ASP.NET Web Form<level>■■■</level></span>
+    <span>ASP.NET MVC<level>■■<i>■</i></level></span>
     <h5>Application</h5>
-    <span>.NET Framewrok</span>
-    <span>Windows Form</span>
-    <span>WPF Application</span>
+    <span>.NET Framewrok<level>■■<i>■</i></level></span>
+    <span>Windows Form<level>■■<i>■</i></level></span>
+    <span>WPF Application<level>■■■</level></span>
     <h5>Server</h5>
-    <span>Node.js</span>
-    <span>Apache</span>
-    <span>Blade Build</span>
-    <span>Aliyun Cloud</span>
-    <span>Windows Azure</span>
+    <span>Apache<level>■■<i>■</i></level></span>
+    <span>Node.js<level>■<i>■■</i></level></span>
+    <span>Blade Build<level>■■<i>■</i></level></span>
+    <span>Aliyun Cloud<level>■■■</level></span>
+    <span>Windows Azure<level>■■<i>■</i></level></span>
     <h5>Data</h5>
-    <span>SQL Server</span>
-    <span>ADO.NET</span>
-    <span>Linq</span>
-    <span>NHibernate</span>
-    <span>JSON</span>
-    <span>XML</span>
+    <span>SQL Server<level>■■<i>■</i></level></span>
+    <span>ADO.NET<level>■■■</level></span>
+    <span>Linq<level>■■■</level></span>
+    <span>NHibernate<level>■■<i>■</i></level></span>
+    <span>JSON<level>■■■</level></span>
+    <span>XML<level>■■■</level></span>
     <h5>Other Keywords</h5>
+    <span>SEO</span>
     <span>MVVM</span>
     <span>Scrum</span>
     <span>Test Driven</span>
   </div>
   <div id="resume-content">
-    <h2>RESUME</h2>
+    <h2>WANG Zhi Yong's Resume</h2>
     <h4>Education</h4>
     <div class="resume-case">
       <span class="date">09/2010 - 06/2013</span>

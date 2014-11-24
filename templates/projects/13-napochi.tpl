@@ -32,7 +32,7 @@
     <p>THISBoard seamlessly integrates with napochi's other systems, but is capable of interfacing with any standards-compliant legacy EHR or ADT system. It integrates information from legacy systems and user touch screen interaction to bring together the features of multiple legacy systems, all in one touch.</p>
     <span class="proj-highlight">It offers increased resource efficiency with acuity-driven patient assignments providing the “Best Care”.</span>
     <div class="proj-content-video">
-      <video id="vdo-napochi" class="video-js vjs-default-skin" controls preload="none" width="100%" poster="{$WEB_ROOT}/images/proj_11_poster.jpg" data-setup=' { "plugins": { "resolutionSelector" : { "default_res":"480" } } }'>
+      <video id="vdo-napochi" class="video-js vjs-default-skin" controls preload="none" width="100%" poster="{$WEB_ROOT}/images/proj_11_poster.jpg" {literal} data-setup='{"plugins":{"resolutionSelector":{"default_res":"480"}}}'{/literal}>
         <source src="{$CDN_ROOT}/animoto_720p.mp4" type="video/mp4" data-res="720" />
         <source src="{$CDN_ROOT}/animoto_480p.mp4" type="video/mp4" data-res="480" />
         <source src="{$CDN_ROOT}/animoto_360p.mp4" type="video/mp4" data-res="360" />

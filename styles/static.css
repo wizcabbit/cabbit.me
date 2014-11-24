@@ -2,7 +2,7 @@
   background-color: #fff;
   box-shadow: 0px 1px 4px 0px #ccc;
   overflow: auto;
-  padding: 0 20px 40px 20px;
+  padding: 20px 20px 40px 20px;
 }
 .static a {
   border-bottom: 1px dotted #384556;
@@ -48,6 +48,14 @@
   display: block;
   line-height: 20px;
   margin: 0 0 0 8px;
+  position: relative;
+}
+#resume-skill span level {
+  position: absolute;
+  right: 0;
+}
+#resume-skill span level i {
+  color: #eee;
 }
 #resume-download {
   height: 50px;
