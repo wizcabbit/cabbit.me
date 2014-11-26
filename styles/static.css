@@ -49,6 +49,7 @@
 }
 .resume-contact ul li .item {
   padding-right: 4px;
+  font-weight: normal;
 }
 #resume-skill {
   border-color: #ddd;

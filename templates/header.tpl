@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width">
     <meta http-equiv="x-dns-prefetch-control" content="on">
     <link rel="dns-prefetch" href="//cabbit-me.qiniudn.com">
-    <link rel="shortcut icon" href="{$WEB_ROOT}/favicon.ico">
+    <link rel="shortcut icon" href="{$WEB_ROOT}/favicon.png">
 {if !$IS_DEBUG}
 {literal}
     <script>
