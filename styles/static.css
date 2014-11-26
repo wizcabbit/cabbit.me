@@ -37,6 +37,19 @@
   font-weight: normal;
   margin: .5em 0;
 }
+.resume-contact ul {
+  padding-left: 16px;
+  overflow: auto;
+}
+.resume-contact ul li {
+  float: left;
+  min-width: 30%;
+  padding-right: 10px;
+  margin: 4px 0;
+}
+.resume-contact ul li .item {
+  padding-right: 4px;
+}
 #resume-skill {
   border-color: #ddd;
   border-left: dotted 1px;
@@ -117,8 +130,12 @@
   }
   #resume h2 {
     font-size: 22px;
+    margin-top: 0;
   }
   .static {
     margin-top: 0;
+  }
+  .resume-contact ul li {
+    clear: left;
   }
 }

@@ -56,6 +56,14 @@
   </div>
   <div id="resume-content">
     <h2>WANG Zhi Yong's Resume</h2>
+    <h4>Information</h4>
+    <div class="resume-contact">
+      <ul>
+        <li><span class="item">Email:</span><span class="value"><a href="mailto:frontfreewzy@gmail.com">frontfreewzy@gmail.com</a></span></li>
+        <li><span class="item">Current Location:</span><span class="value">Beijing</span></li>
+        <li><span class="item">Network:</span><span class="value"><a href="http://www.linkedin.com/in/zhiywang">Linkedin</a>, <a href="https://github.com/wizcabbit">GitHub</a></span></li>
+      </ul>
+    </div>
     <h4>Education</h4>
     <div class="resume-case">
       <span class="date">09/2010 - 06/2013</span>
@@ -71,7 +79,7 @@
     <div class="resume-case">
       <span class="date">07/2008 - 06/2010</span>
       <span class="company">Frontfree</span>
-      <span class="title">Chairmen</span>
+      <span class="title">Chairman</span>
       <ul class="description">
         <li>A technology organization focus on UI/UX design and .NET platform implement</li>
         <li>Microsoft Imagine Cup 2010, mentor of <a href="{$WEB_ROOT}/projects/10-vheard">vHeard</a>, Second Prize in China, Software Design topic</li>
@@ -132,7 +140,7 @@
         <li><a href="{$WEB_ROOT}/projects/12-ge-maker">GE Centricity RIS-IC</a>, medical work flow system. Designed MVVM architecture to implement the flexible requirement. This project got GE's best supplier</li>
         <li>Designed and implemented <a href="{$WEB_ROOT}/projects/13-napochi">Napochi THISBoard</a> user interface. Designed plug-in architecture to adapt different data sources</li>
         <li>Implemented <a href="{$WEB_ROOT}/projects/11-sohu-nba">Sohu's NBA</a> channel, using HTML5 and CSS3 to build NBA Live show player, present real-time data statistics and game analytics</li>
-        <li>Implemented and maintained Microsoft University Center in 2007 - 2008, using automotive script to build statistic reports, organized two annual technology activities. The user of MSU Center raises from XXX to XXX in two years</li>
+        <li>Implemented and maintained Microsoft University Center in 2007 - 2008, using automotive script to build statistic reports, organized two annual technology activities.</li>
         <li>Implemented Microsoft's mixFactory website, presented in the Microsoft IE9 Launch Show. The earliest HTML5 video site in China, implemented video player with HTML 5 and Silverlight</li>
       </ul>
     </div>

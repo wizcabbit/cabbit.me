@@ -2,12 +2,12 @@ module.exports = function(grunt) {
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
     clean: {
-      build: [
+      release: [
         'build/*'
       ]
     },
     uglify: {
-      js: {
+      release: {
         files: {
           'build/all.min.js': [
             'scripts/lib/jquery-1.11.1.js',
@@ -20,7 +20,7 @@ module.exports = function(grunt) {
       }
     },
     cssmin: {
-      css: {
+      release: {
         files: {
           'build/all.min.css': [
             'styles/common.css',
@@ -38,7 +38,7 @@ module.exports = function(grunt) {
       }
     },
     copy: {
-      main: {
+      release: {
         expand: true,
         src: [
           'smarty/**',
@@ -48,9 +48,24 @@ module.exports = function(grunt) {
           'media/**',
           '.htaccess',
           'index.php',
-          'favicon.ico'
+          'favicon.ico',
+          'sitemap.xml'
         ],
         dest: 'build/'
+      }
+    },
+    ftpush: {
+      deploy: {
+        auth: {
+          host: 'srv.cabbit.me',
+          port: 21,
+          authKey: 'www'
+        },
+        src: './build',
+        dest: './default',
+        exclusions: ['smarty/**'],
+        keep: ['bin/**', '.htaccess', 'vjs*', 'smarty/**'],
+        simple: true
       }
     }
   });
@@ -59,6 +74,9 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks('grunt-contrib-uglify');
+  grunt.loadNpmTasks('grunt-ftpush');
 
   grunt.registerTask('default', ['clean', 'uglify', 'cssmin', 'copy']);
+  grunt.registerTask('release', ['clean', 'uglify', 'cssmin', 'copy']);
+  grunt.registerTask('deploy', ['release', 'ftpush']);
 };

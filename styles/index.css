@@ -18,7 +18,7 @@
 }
 #intro p {
   font-size: 30px;
-  font-weight: 100;
+  font-weight: lighter;
   line-height: 40px;
   margin: 0;
   text-shadow: 1px 1px 2px #fff;
@@ -28,7 +28,7 @@
 }
 #intro p span {
   font-size: inherit;
-  font-weight: 400;
+  font-weight: normal;
 }
 #proj-wrapper {
   margin-bottom: 50px;
