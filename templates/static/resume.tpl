@@ -81,19 +81,19 @@
       <span class="company">Frontfree</span>
       <span class="title">Chairman</span>
       <ul class="description">
-        <li>A technology organization focus on UI/UX design and .NET platform implement</li>
-        <li>Microsoft Imagine Cup 2010, mentor of <a href="{$WEB_ROOT}/projects/10-vheard">vHeard</a>, Second Prize in China, Software Design topic</li>
-        <li>Microsoft Imagine Cup 2009, technology leader of <a href="{$WEB_ROOT}/projects/09-global-guider">Global Guider</a>, Second Prize in China, Software Design topic</li>
-        <li>Microsoft Imagine Cup 2008, member of <a href="{$WEB_ROOT}/projects/08-iems">IEMS</a>, Top Six in World Final, UI Design topic</li>
+        <li>A technology club focus on UI/UX design and .NET platform implement, in the competition contains Microsoft Imagine Cup, World Hardware & Software Competition, ACM and others.</li>
+        <li>Microsoft Imagine Cup 2010, mentor of <a href="{$WEB_ROOT}/projects/10-vheard">vHeard</a>, the Second Prize of Software Design topic in China</li>
+        <li>Microsoft Imagine Cup 2009, leader of <a href="{$WEB_ROOT}/projects/09-global-guider">Global Guider</a>, the Second Prize of Software Design topic in China. Designed architecture and technology solution, make presentation in Beijing</li>
+        <li>Microsoft Imagine Cup 2008, member of <a href="{$WEB_ROOT}/projects/08-iems">IEMS</a>, Top Six in World Final, UI Design topic. Joined the 24 hour challenge in Paris and make presentation in final show</li>
       </ul>
     </div>
     <h4>Professional Experience</h4>
     <div class="resume-case">
       <span class="date">07/2014 - Present</span>
-      <span class="company">Wanda Ecommerce</span>
+      <span class="company">Wanda E-commerce</span>
       <span class="title">Senior Front-end Engineer</span>
       <ul class="description">
-        <li>Designed front-end architecture for administration website, based on angular.js to build flexible management interface</li>
+        <li>Designed web application architecture for back end system using AngularJS to build flexible management interface. Organized the components by Require.JS, and using grunt, bower, yo to accelerate the development process</li>
         <li>Implements of O2O customer marketing activities, for <a href="//www.wanhui.cn/">Web</a>, WAP and APP side</li>
       </ul>
     </div>
@@ -102,8 +102,8 @@
       <span class="date">07/2013 - 04/2014</span>
       <span class="title">IT Consultant Trainee</span>
       <ul class="description">
-        <li>Project management officer in core banking project</li>
-        <li>Designed and implemented commercial website front-end architecture, for Air China</li>
+        <li>Project management officer in core banking project, lead 20 staff team to automotive test the financial level core banking interface, the test coverage reach 75% - 80% mostly</li>
+        <li>Designed and implemented commercial website front-end architecture, for Air China, refine and iterate user experience by implementing new modules and interfaces in complex, responsive site</li>
         <li>Designed operation process for <a href="//www.lianjia.com/">Homelink</a> Internet financial service</li>
       </ul>
     </div>
@@ -120,7 +120,7 @@
       <span class="company">Beijing Certificate Authorization - <a href="//www.bjca.org.cn/">Website</a></span>
       <span class="title">User Security Engineer</span>
       <ul class="description">
-        <li>Safety input solution, transfer all network flow, encrypt with OpenSSH. Deliver to Bank of China, Bank of Beijing and others</li>
+        <li>Safety input solution, transfer all network flow, encrypt with OpenSSH. Deliver to Bank of China, Bank of Beijing and others financial sector customers</li>
       </ul>
     </div>
     <div class="resume-case">
@@ -128,7 +128,7 @@
       <span class="company">Microsoft Research Asia</span>
       <span class="title">Front-end Intern</span>
       <ul class="description">
-        <li>Implemented Bing search engine's Web UI, response to flexible user devices</li>
+        <li>Implemented Bing search engine's Web UI, response to flexible user devices includes PC Browser, Black Berry and Windows Mobile</li>
       </ul>
     </div>
     <div class="resume-case">
@@ -137,9 +137,9 @@
       <span class="title">Architecture, Engineer, Intern</span>
       <ul class="description">
         <li>First batch of employees in this startup company</li>
-        <li><a href="{$WEB_ROOT}/projects/12-ge-maker">GE Centricity RIS-IC</a>, medical work flow system. Designed MVVM architecture to implement the flexible requirement. This project got GE's best supplier</li>
-        <li>Designed and implemented <a href="{$WEB_ROOT}/projects/13-napochi">Napochi THISBoard</a> user interface. Designed plug-in architecture to adapt different data sources</li>
-        <li>Implemented <a href="{$WEB_ROOT}/projects/11-sohu-nba">Sohu's NBA</a> channel, using HTML5 and CSS3 to build NBA Live show player, present real-time data statistics and game analytics</li>
+        <li><a href="{$WEB_ROOT}/projects/12-ge-maker">GE Centricity RIS-IC</a>, medical work flow system. Designed MVVM architecture to implement the flexible requirement. Using Command Pattern to accomplish Editor's Undo-Redo function. This project got GE's best supplier</li>
+        <li>Designed and implemented <a href="{$WEB_ROOT}/projects/13-napochi">Napochi THISBoard</a> user interface. Designed plug-in architecture to adapt different data sources. Using WPF responsive layout to adapt multi devices such as Pocket, Tablet and TV</li>
+        <li>Implemented <a href="{$WEB_ROOT}/projects/11-sohu-nba">Sohu's NBA</a> channel, using HTML5 and CSS3 to build NBA Live show player, present real-time data statistics and game analytics. Implement virtual yards by HTML5</li>
         <li>Implemented and maintained Microsoft University Center in 2007 - 2008, using automotive script to build statistic reports, organized two annual technology activities.</li>
         <li>Implemented Microsoft's mixFactory website, presented in the Microsoft IE9 Launch Show. The earliest HTML5 video site in China, implemented video player with HTML 5 and Silverlight</li>
       </ul>
