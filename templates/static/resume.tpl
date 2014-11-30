@@ -27,20 +27,20 @@
     <span>XAML<level>■■■</level></span>
     <span>Silverlight<level>■<i>■■</i></level></span>
     <h5>Web</h5>
-    <span>Smarty<level>■■<i>■</i></level></span>
     <span>Jekyll<level>■■■</level></span>
     <span>ASP.NET Web Form<level>■■■</level></span>
     <span>ASP.NET MVC<level>■■<i>■</i></level></span>
+    <span>Smarty<level>■■<i>■</i></level></span>
     <h5>Application</h5>
     <span>.NET Framewrok<level>■■<i>■</i></level></span>
-    <span>Windows Form<level>■■<i>■</i></level></span>
     <span>WPF Application<level>■■■</level></span>
+    <span>Windows Form<level>■■<i>■</i></level></span>
     <h5>Server</h5>
-    <span>Apache<level>■■<i>■</i></level></span>
-    <span>Node.js<level>■<i>■■</i></level></span>
-    <span>Blade Build<level>■■<i>■</i></level></span>
     <span>Aliyun Cloud<level>■■■</level></span>
     <span>Windows Azure<level>■■<i>■</i></level></span>
+    <span>Apache<level>■■<i>■</i></level></span>
+    <span>Node.js<level>■<i>■■</i></level></span>
+    <span>Blade Build<level>■<i>■■</i></level></span>
     <h5>Data</h5>
     <span>SQL Server<level>■■<i>■</i></level></span>
     <span>ADO.NET<level>■■■</level></span>
@@ -60,7 +60,7 @@
     <div class="resume-contact">
       <ul>
         <li><span class="item">Email:</span><span class="value"><a href="mailto:frontfreewzy@gmail.com">frontfreewzy@gmail.com</a></span></li>
-        <li><span class="item">Current Location:</span><span class="value">Beijing</span></li>
+        <li><span class="item">Current Location:</span><span class="value">Beijing, China</span></li>
         <li><span class="item">Network:</span><span class="value"><a href="http://www.linkedin.com/in/zhiywang">Linkedin</a>, <a href="https://github.com/wizcabbit">GitHub</a></span></li>
       </ul>
     </div>

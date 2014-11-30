@@ -5,7 +5,7 @@
 <div id="intro-wrapper">
   <div id="intro"><!-- BEGIN intro -->
     <p>I am <span>Wang Zhi Yong</span>, a split Gemini interested in all unknown.</p>
-    <p>Currently, I am a front-end engineer, <span>research</span> on efficient and simple solutions from design to implementation, and <span>lead</span> teammates work comfortably and smoothly.</p>
+    <p>Currently, I am a full stack web engineer, <span>research</span> on efficient and simple solutions from design to implementation, and <span>lead</span> teammates work comfortably and smoothly.</p>
   </div><!-- END intro -->
 </div>
 <div id="proj-wrapper"><!-- BEGIN project container -->
