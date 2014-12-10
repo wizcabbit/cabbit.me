@@ -15,8 +15,8 @@
     <span>September, 2011</span>
     <h5>Team & Role</h5>
     <span><a href="//weibo.com/heallven">heallven</a></span>
-    <span><a href="//http://weibo.com/geewu">Gee Wu</a></span>
-    <span><a href="">Raysharp</a></span>
+    <span><a href="//weibo.com/geewu">Gee Wu</a></span>
+    <span><a href="//www.liberationwork.com/">Raysharp</a></span>
     <span>ME (Front-end Dev)</span>
     <h5>Skills & Technologys</h5>
     <span>HTML 5 / CSS 3</span>
