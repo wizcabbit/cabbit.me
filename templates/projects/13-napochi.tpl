@@ -1,4 +1,9 @@
-{$PAGE_TITLE="Napochi THISBoard @wizcabbit"} {$PAGE_KEYWORDS="Napochi,medical"} {$NAV="projects"} {$PROJ="13"} {include file="header.tpl"} {include file="projects/proj-sidebar.tpl"}
+{$PAGE_TITLE="Napochi THISBoard @wizcabbit"}
+{$PAGE_KEYWORDS="Napochi,medical"}
+{$NAV="projects"}
+{$PROJ="13"}
+{include file="header.tpl"}
+{include file="projects/proj-sidebar.tpl"}
 
 <div id="proj-detail">
   <div id="proj-attribute">
