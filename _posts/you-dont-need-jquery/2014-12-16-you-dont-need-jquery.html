@@ -1,0 +1,20 @@
+---
+layout: "nojquery"
+title: 抛弃jQuery！
+description: 我们需要理解jQuery背后的工作原理，掌握现代浏览器API，把Web开发从jQuery的陷阱中拯救出来，jQuery不等于JavaScript。
+keywords:
+categories: 抛弃jQuery
+permalink: /you-dont-need-jquery
+---
+
+<div id="main">
+  {% for post in site.categories.no-jquery reversed %}
+    <article class="post-brief">
+      <a href="{{ post.url }}/">
+        <h2>{{ post.title }}</h2>
+      </a>
+      <p>{{ post.description }}</p>
+      <a href="{{ post.url }}/" class="post-full-link">Read More</a>
+    </article>
+  {% endfor %}
+</div>

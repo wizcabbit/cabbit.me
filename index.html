@@ -1,0 +1,27 @@
+---
+layout: default
+title: Blog
+---
+
+<div id="main">
+  {% for post in site.posts %}
+    <article class="post-brief">
+    <a href="{{ post.url }}/">
+      <h2>{{ post.title }}</h2>
+      {% if post.subtitle %}<h3>{{ post.subtitle }}</h3>{% endif %}
+    </a>
+    <p>{{ post.description }}</p>
+    <div class="post-more">
+      <div class="post-category">
+        <span>Tags: </span>
+        {% for category in post.categories %}
+          <a>{{ category }}</a>
+        {% endfor %}
+      </div>
+      <a href="{{ post.url }}/" class="post-full-link">阅读原文</a>
+      <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+    </div>
+  </article>
+  {% endfor %}
+
+</div>

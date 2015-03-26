@@ -1,0 +1,38 @@
+---
+layout: default
+---
+
+<div id="main">
+  <article class="post">
+    <span class="post-date">{{ page.date | date: "%Y-%m-%d" }}</span>
+    <h2 class="post-title">{{ page.title }}</h2>
+    {% if post.subtitle %}
+    <h3 class="post-subtitle">{{ post.subtitle }}</h3>{% endif %}
+    {{ content }}
+  </article>
+  <div id="rights">
+    <p>转载本站点（<a href="//blog.cabbit.me">blog.cabbit.me</a>）内的所有原创内容时，请遵循此协议：</p>
+    <p><a href="http://creativecommons.org/licenses/by-nc-nd/4.0/deed.en">署名-非商业性使用-禁止演绎 4.0 国际 (CC BY-NC-ND 4.0)</a></p>
+    <p>请标明本文的显式链接，请勿对文章内容、图表做出修改</p>
+  </div>
+  <div id="comments">
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+      var disqus_shortname = 'blogcabbitme';
+      (function() {
+          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+          dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  </div>
+</div>
+<script type="text/javascript">
+(function() {
+  $("code").each(function() {
+    $(this).attr("class", "language-" + $(this).attr("class"));
+  });
+})();
+</script>
+<script type="text/javascript" src="{{ site.url }}/lib/prism/prism.js"></script>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="utf-8" />
+{% include head-render.tpl.html %}
+{% include head-icon.tpl.html %}
+  <title>{% if page.title %}{{ page.title }}{% endif %}</title>
+  <meta name="author" content="wizcabbit">
+  <meta name="keywords" content="wizcabbit,Wang Zhi Yong,blog,{% if page.keywords %}{{ page.keywords }}{% endif %}">
+  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}WANG Zhi Yong，全栈码农（Web），伪咨询顾问。{% endif %}">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+{% include head-dns.tpl.html %}
+  {% if site.is_debug %}
+  <link rel="stylesheet" href="{{ site.url }}/css/nojquery.css">
+  {% else %}
+  <link rel="stylesheet" href="{{ site.url }}/nojquery.min.css">
+{% include head-analytics.tpl.html %}
+  {% endif %}
+</head>
+
+<body>
+  <div id="title-wrapper">
+    <div id="title-container">
+      <header>
+        <a href="{{ site.url }}/you-dont-need-jquery/" id="title-icon">
+          <img src="{{ site.url }}/images/2014-12-18-nojquery/logo.png" />
+        </a>
+        <div id="title-content">
+          <a href="{{ site.url }}/you-dont-need-jquery/"><h1>抛弃jQuery！</h1></a>
+          <p>我们需要理解jQuery背后的工作原理，掌握现代浏览器API，把Web开发从jQuery的陷阱中拯救出来，jQuery不等于JavaScript！</p>
+        </div>
+        <nav>
+          <a href="//blog.garstasio.com/you-dont-need-jquery/">作者Blog</a>
+          <a href="//blog.cabbit.me">中文译者</a>
+        </nav>
+      </header>
+    </div>
+  </div>
+
+  <div id="main-wrapper">
+    {{ content }}
+    <div id="comments">
+      {% include post-disqus.tpl.html %}
+    </div>
+  </div>
+
+  <div id="footer-wrapper">
+    <footer class="footer">
+      <a href="https://github.com/wizcabbit">{% include svgs/github-logo.svg %}</a>
+      <a href="//www.linkedin.com/in/zhiywang">{% include svgs/linkedin-logo.svg %}</a>
+      <a href="//stackoverflow.com/users/2782447/wizcabbit">{% include svgs/stackoverflow-logo.svg %}</a>
+      <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">{% include svgs/cc-by.svg %}</a>
+      <p>
+        转载本页面内容时，请遵循<a rel="license" href="http://creativecommons.org/licenses/by/4.0/">署名 4.0 国际 (CC BY 4.0)</a>协议，并标明本页面的显式链接。</a>
+      </p>
+    </footer>
+  </div>
+</body>
+
+</html>
